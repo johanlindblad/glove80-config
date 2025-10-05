@@ -180,6 +180,36 @@ parse_config:
     '&reset': Reset
     '&sys_reset': Reset
 
+    # Swedish/locale punctuation mappings used in the symbol layer
+    '&se_tilde': '~'
+    '&se_lt': '<'
+    '&se_gt': '>'
+    '&se_pipe': '|'
+    '&se_slash': '/'
+    '&se_backslash': '\\'
+    '&se_amp': '&'
+    '&se_quote': "'"
+    '&se_percent': '%'
+    '&se_colon': ':'
+    '&se_at': '@'
+    '&se_backtick': '`'
+    '&se_lparen': '('
+    '&se_rparen': ')'
+    '&se_semicolon': ';'
+    '&se_comma': ','
+    '&se_question': '?'
+    '&se_lbrack': '['
+    '&se_rbrack': ']'
+    '&se_exclam': '!'
+    '&se_lcurl': '{'
+    '&se_rcurl': '}'
+    '&se_circon': '^'
+    '&se_equal': '='
+    '&se_underscore': '_'
+    '&se_dollar': '$'
+    '&se_asterisk': '*'
+    '&se_np_comma': ','
+
   zmk_keycode_map:
     RET: &ret $$mdi:keyboard-return$$
     RETURN: *ret
