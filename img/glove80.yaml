@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: glove80}
 layers:
-  default:
+  HRM_macOS:
   - F1
   - F2
   - F3
@@ -11,7 +11,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - ''
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
   - {t: '3', s: £}
@@ -22,89 +22,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - F12
+  - '-'
   - ''
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - {t: '''', s: '"'}
-  - ''
-  - {t: _, s: \}
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - {t: '-', s: /}
-  - ''
-  - Z
-  - X
-  - C
-  - D
-  - V
-  - $$mdi:apple-keyboard-shift$$
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
-  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
-  - Alt
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
-  - $$mdi:apple-keyboard-shift$$
-  - K
-  - H
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '?', s: '!'}
-  - ''
-  - {t: '$$mdi:controller$$', h: Gaming, type: info}
-  - {t: $$moergo$$, h: Magic, type: info}
-  - ''
-  - ''
-  - ''
-  - $$mdi:backspace$$
-  - {t: Esc, h: symbols}
-  - {t: '$$mdi:keyboard-tab-reverse$$', h: Ctrl}
-  - {t: '$$mdi:keyboard-tab$$', h: Ctrl}
-  - {t: '$$mdi:keyboard-return$$', h: symbols}
-  - $$mdi:keyboard-space$$
-  - ''
-  - ''
-  - ''
-  - AltGr
-  - {t: '$$mdi:keyboard-outline$$', h: Qwerty, type: info}
-  qwerty:
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
   - Q
   - W
   - E
@@ -115,36 +34,54 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - A
-  - S
-  - D
-  - F
+  - '['
+  - {t: Sft+2, s: '#'}
+  - {t: A, h: '&HRM_left_pinky_hold_v1B_TKZ LCTRL'}
+  - {t: S, h: '&HRM_left_ring_hold_v1B_TKZ LALT'}
+  - {t: D, h: '&HRM_left_middy_hold_v1B_TKZ LGUI'}
+  - {t: F, h: '&HRM_left_index_hold_v1B_TKZ LSHFT'}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: J, h: '&HRM_right_index_hold_v1B_TKZ RSHFT'}
+  - {t: K, h: '&HRM_right_middy_hold_v1B_TKZ RGUI'}
+  - {t: L, h: '&HRM_right_ring_hold_v1B_TKZ LALT'}
+  - {t: ;, h: '&HRM_right_pinky_hold_v1B_TKZ RCTRL'}
+  - ''''
+  - '&lower'
   - Z
   - X
   - C
   - V
   - B
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - Esc
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&mac_line_home'
+  - '&mac_line_end'
+  - $$mdi:keyboard-return$$
   - N
   - M
   - ','
   - .
   - /
+  - ''
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: Alt+7, s: Alt+7}
+  - {t: Alt+8, s: Alt+8}
+  - {t: Alt+9, s: Alt+9}
+  - {t: '&tilde_dead_space', s: '&caret_lit'}
+  - {t: '$$mdi:backspace$$', h: Cursor}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Number}
+  - '&se_slash'
+  - '&se_colon'
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-space$$', h: Symbol}
+  - '#'
+  - \
+  - '&se_gt'
+  - '='
+  - ''
+  Typing:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -162,7 +99,34 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  symbols:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - J
+  - K
+  - L
+  - ;
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -186,46 +150,1189 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '`'
-  - <
-  - '>'
-  - '"'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  Autoshift:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&AS_v1_TKZ EQUAL'
+  - '&AS_v1_TKZ N1'
+  - '&AS_v1_TKZ N2'
+  - '&AS_v1_TKZ N3'
+  - '&AS_v1_TKZ N4'
+  - '&AS_v1_TKZ N5'
+  - '&AS_v1_TKZ N6'
+  - '&AS_v1_TKZ N7'
+  - '&AS_v1_TKZ N8'
+  - '&AS_v1_TKZ N9'
+  - '&AS_v1_TKZ N0'
+  - '&AS_v1_TKZ MINUS'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&AS_v1_TKZ Q'
+  - '&AS_v1_TKZ W'
+  - '&AS_v1_TKZ E'
+  - '&AS_v1_TKZ R'
+  - '&AS_v1_TKZ T'
+  - '&AS_v1_TKZ Y'
+  - '&AS_v1_TKZ U'
+  - '&AS_v1_TKZ I'
+  - '&AS_v1_TKZ O'
+  - '&AS_v1_TKZ P'
+  - '&AS_v1_TKZ LBKT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&AS_v1_TKZ A'
+  - '&AS_v1_TKZ S'
+  - '&AS_v1_TKZ D'
+  - '&AS_v1_TKZ F'
+  - '&AS_v1_TKZ G'
+  - '&AS_v1_TKZ H'
+  - '&AS_v1_TKZ J'
+  - '&AS_v1_TKZ K'
+  - '&AS_v1_TKZ L'
+  - '&AS_v1_TKZ SEMI'
+  - '&AS_v1_TKZ SQT'
+  - '&AS_v1_TKZ GRAVE'
+  - '&AS_v1_TKZ Z'
+  - '&AS_v1_TKZ X'
+  - '&AS_v1_TKZ C'
+  - '&AS_v1_TKZ V'
+  - '&AS_v1_TKZ B'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&AS_v1_TKZ N'
+  - '&AS_v1_TKZ M'
+  - '&AS_v1_TKZ COMMA'
+  - '&AS_v1_TKZ DOT'
+  - '&AS_v1_TKZ FSLH'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&AS_v1_TKZ LBKT'
+  - '&AS_v1_TKZ RBKT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  Cursor:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Esc
+  - INS
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:backspace-reverse-outline$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:keyboard-return$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace$$
+  - Gui+X
+  - Gui+X
+  - $$mdi:keyboard-tab-reverse$$
+  - Gui+Z
+  - Gui+Sft+Z
+  - $$mdi:keyboard-tab$$
+  - ''
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - Ctrl
+  - Alt
+  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
+  - $$mdi:apple-keyboard-shift$$
+  - Gui+C
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - Gui+L
+  - Gui+A
+  - '&cur_SELECT_LINE_macos_v1_TKZ'
+  - '&cur_SELECT_WORD_macos_v1_TKZ'
+  - Gui+F
+  - Gui+V
+  - '&mod_tab_v2_TKZ LGUI'
+  - '&mod_tab_v2_TKZ LALT'
+  - Print
+  - '&cur_SELECT_NONE_v1_TKZ'
+  - '&cur_EXTEND_LINE_macos_v1_TKZ'
+  - '&cur_EXTEND_WORD_macos_v1_TKZ'
+  - Gui+V
+  - Home
+  - Pg Up
+  - Pg Down
+  - End
+  - Gui+L
+  - Gui+K
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+Sft+G
+  - Gui+G
+  - {type: held}
+  - '&mod_tab_v2_TKZ LCTRL'
+  - Gui+F3
+  - Gui+A
+  - '&cur_SELECT_LINE_macos_v1_TKZ'
+  - '&cur_SELECT_WORD_macos_v1_TKZ'
+  - Gui+F
+  - Gui+Sft+G
+  - Gui+G
+  - Ctl+H
+  - Gui+K
+  Symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&se_backtick'
+  - '&se_rbrack'
+  - '&se_lparen'
+  - '&se_rparen'
+  - '&se_semicolon'
+  - .
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&se_lbrack'
+  - '&se_exclam'
+  - '&se_lcurl'
+  - '&se_rcurl'
+  - '&se_comma'
+  - '&se_question'
+  - '&se_backtick'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - {t: RGUI, h: sticky}
+  - {t: AltGr, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - ''
   - £
-  - ':'
-  - '%'
+  - '&se_circon'
+  - '&se_equal'
+  - '&se_underscore'
+  - '&se_dollar'
+  - '&se_asterisk'
+  - '&se_quote'
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-return$$
+  - ''
+  - '&se_tilde'
+  - '&se_lt'
+  - '&se_pipe'
+  - /
+  - '&se_gt'
+  - '&se_slash'
+  - '&se_backslash'
+  - .
+  - '&se_asterisk'
+  - ''
+  - ''
+  - ''
+  - '#'
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-tab-reverse$$
+  - INS
+  - Esc
+  - ''
+  - '&symb_dotdot_v1_TKZ'
+  - '&se_amp'
+  - '#'
+  - '&se_quote'
+  - '-'
+  - '&se_percent'
+  - '&se_colon'
+  - '&se_at'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Gaming:
+  - Esc
+  - P
+  - O
+  - N
+  - $$mdi:backspace$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - M
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - I
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: £}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - F12
+  - T
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - G
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - $$mdi:apple-keyboard-shift$$
+  - Alt
+  - V
+  - Esc
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:keyboard-return$$
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '-'
+  - B
+  - Ctrl
+  - Z
+  - X
+  - C
+  - $$mdi:keyboard-space$$
+  - Ctrl
+  - $$mdi:keyboard-return$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - '`'
   - '['
   - ']'
-  - ^
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - '~'
-  - '-'
-  - +
-  - '='
   - '#'
-  - '?'
-  - '!'
-  - (
-  - )
-  - '&'
-  - '@'
+  - '='
+  Lower:
+  - BRI DN
+  - BRI UP
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - ''
+  - PAUSE BREAK
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - Home
+  - '&se_lparen'
+  - Num Lock
+  - '='
   - /
   - '*'
-  - ''''
-  - €
+  - Print
   - {t: '$$mdi:chevron-down$$', type: trans}
   - ''
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - $$mdi:arrow-up-bold$$
+  - ''
+  - End
+  - '&se_rparen'
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - SCROLLLOCK
   - {t: '$$mdi:chevron-down$$', type: trans}
   - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Pg Up
+  - '%'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - ''
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - APP
+  - ''
+  - F11
+  - F12
+  - Pg Down
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: HRM_macOS, h: toggle}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&se_np_comma'
+  - '1'
+  - '2'
+  - '3'
+  - KP ENTER
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - CAPS
+  - INS
+  - F11
+  - F12
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '0'
+  - '0'
+  - .
+  - KP ENTER
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  LeftIndex:
+  - '&HRM_left_index_tap_v1B_TKZ F1'
+  - '&HRM_left_index_tap_v1B_TKZ F2'
+  - '&HRM_left_index_tap_v1B_TKZ F3'
+  - '&HRM_left_index_tap_v1B_TKZ F4'
+  - '&HRM_left_index_tap_v1B_TKZ F5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_index_tap_v1B_TKZ EQUAL'
+  - '&HRM_left_index_tap_v1B_TKZ N1'
+  - '&HRM_left_index_tap_v1B_TKZ N2'
+  - '&HRM_left_index_tap_v1B_TKZ N3'
+  - '&HRM_left_index_tap_v1B_TKZ N4'
+  - '&HRM_left_index_tap_v1B_TKZ N5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_index_tap_v1B_TKZ Q'
+  - '&HRM_left_index_tap_v1B_TKZ W'
+  - '&HRM_left_index_tap_v1B_TKZ E'
+  - '&HRM_left_index_tap_v1B_TKZ R'
+  - '&HRM_left_index_tap_v1B_TKZ T'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '&HRM_left_index_tap_v1B_TKZ A', h: Ctrl}
+  - {t: '&HRM_left_index_tap_v1B_TKZ S', h: Alt}
+  - {t: '&HRM_left_index_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - ''
+  - '&HRM_left_index_tap_v1B_TKZ G'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - J
+  - K
+  - L
   - ;
-  - $
-  - '{'
-  - '}'
-  - '|'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_index_tap_v1B_TKZ Z'
+  - '&HRM_left_index_tap_v1B_TKZ X'
+  - '&HRM_left_index_tap_v1B_TKZ C'
+  - '&HRM_left_index_tap_v1B_TKZ V'
+  - '&HRM_left_index_tap_v1B_TKZ B'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  LeftMiddy:
+  - '&HRM_left_middy_tap_v1B_TKZ F1'
+  - '&HRM_left_middy_tap_v1B_TKZ F2'
+  - '&HRM_left_middy_tap_v1B_TKZ F3'
+  - '&HRM_left_middy_tap_v1B_TKZ F4'
+  - '&HRM_left_middy_tap_v1B_TKZ F5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_middy_tap_v1B_TKZ EQUAL'
+  - '&HRM_left_middy_tap_v1B_TKZ N1'
+  - '&HRM_left_middy_tap_v1B_TKZ N2'
+  - '&HRM_left_middy_tap_v1B_TKZ N3'
+  - '&HRM_left_middy_tap_v1B_TKZ N4'
+  - '&HRM_left_middy_tap_v1B_TKZ N5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_middy_tap_v1B_TKZ Q'
+  - '&HRM_left_middy_tap_v1B_TKZ W'
+  - '&HRM_left_middy_tap_v1B_TKZ E'
+  - '&HRM_left_middy_tap_v1B_TKZ R'
+  - '&HRM_left_middy_tap_v1B_TKZ T'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '&HRM_left_middy_tap_v1B_TKZ A', h: Ctrl}
+  - {t: '&HRM_left_middy_tap_v1B_TKZ S', h: Alt}
+  - ''
+  - {t: '&HRM_left_middy_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&HRM_left_middy_tap_v1B_TKZ G'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_middy_tap_v1B_TKZ Z'
+  - '&HRM_left_middy_tap_v1B_TKZ X'
+  - '&HRM_left_middy_tap_v1B_TKZ C'
+  - '&HRM_left_middy_tap_v1B_TKZ V'
+  - '&HRM_left_middy_tap_v1B_TKZ B'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  LeftRingy:
+  - '&HRM_left_ring_tap_v1B_TKZ F1'
+  - '&HRM_left_ring_tap_v1B_TKZ F2'
+  - '&HRM_left_ring_tap_v1B_TKZ F3'
+  - '&HRM_left_ring_tap_v1B_TKZ F4'
+  - '&HRM_left_ring_tap_v1B_TKZ F5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_ring_tap_v1B_TKZ EQUAL'
+  - '&HRM_left_ring_tap_v1B_TKZ N1'
+  - '&HRM_left_ring_tap_v1B_TKZ N2'
+  - '&HRM_left_ring_tap_v1B_TKZ N3'
+  - '&HRM_left_ring_tap_v1B_TKZ N4'
+  - '&HRM_left_ring_tap_v1B_TKZ N5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_ring_tap_v1B_TKZ Q'
+  - '&HRM_left_ring_tap_v1B_TKZ W'
+  - '&HRM_left_ring_tap_v1B_TKZ E'
+  - '&HRM_left_ring_tap_v1B_TKZ R'
+  - '&HRM_left_ring_tap_v1B_TKZ T'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '&HRM_left_ring_tap_v1B_TKZ A', h: Ctrl}
+  - ''
+  - {t: '&HRM_left_ring_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '&HRM_left_ring_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&HRM_left_ring_tap_v1B_TKZ G'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_ring_tap_v1B_TKZ Z'
+  - '&HRM_left_ring_tap_v1B_TKZ X'
+  - '&HRM_left_ring_tap_v1B_TKZ C'
+  - '&HRM_left_ring_tap_v1B_TKZ V'
+  - '&HRM_left_ring_tap_v1B_TKZ B'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  LeftPinky:
+  - '&HRM_left_pinky_tap_v1B_TKZ F1'
+  - '&HRM_left_pinky_tap_v1B_TKZ F2'
+  - '&HRM_left_pinky_tap_v1B_TKZ F3'
+  - '&HRM_left_pinky_tap_v1B_TKZ F4'
+  - '&HRM_left_pinky_tap_v1B_TKZ F5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_pinky_tap_v1B_TKZ EQUAL'
+  - '&HRM_left_pinky_tap_v1B_TKZ N1'
+  - '&HRM_left_pinky_tap_v1B_TKZ N2'
+  - '&HRM_left_pinky_tap_v1B_TKZ N3'
+  - '&HRM_left_pinky_tap_v1B_TKZ N4'
+  - '&HRM_left_pinky_tap_v1B_TKZ N5'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_pinky_tap_v1B_TKZ Q'
+  - '&HRM_left_pinky_tap_v1B_TKZ W'
+  - '&HRM_left_pinky_tap_v1B_TKZ E'
+  - '&HRM_left_pinky_tap_v1B_TKZ R'
+  - '&HRM_left_pinky_tap_v1B_TKZ T'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - ''
+  - {t: '&HRM_left_pinky_tap_v1B_TKZ S', h: Alt}
+  - {t: '&HRM_left_pinky_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '&HRM_left_pinky_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&HRM_left_pinky_tap_v1B_TKZ G'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_left_pinky_tap_v1B_TKZ Z'
+  - '&HRM_left_pinky_tap_v1B_TKZ X'
+  - '&HRM_left_pinky_tap_v1B_TKZ C'
+  - '&HRM_left_pinky_tap_v1B_TKZ V'
+  - '&HRM_left_pinky_tap_v1B_TKZ B'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  RightIndex:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_index_tap_v1B_TKZ F6'
+  - '&HRM_right_index_tap_v1B_TKZ F7'
+  - '&HRM_right_index_tap_v1B_TKZ F8'
+  - '&HRM_right_index_tap_v1B_TKZ F9'
+  - '&HRM_right_index_tap_v1B_TKZ F10'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_index_tap_v1B_TKZ N6'
+  - '&HRM_right_index_tap_v1B_TKZ N7'
+  - '&HRM_right_index_tap_v1B_TKZ N8'
+  - '&HRM_right_index_tap_v1B_TKZ N9'
+  - '&HRM_right_index_tap_v1B_TKZ N0'
+  - '&HRM_right_index_tap_v1B_TKZ MINUS'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_index_tap_v1B_TKZ Y'
+  - '&HRM_right_index_tap_v1B_TKZ U'
+  - '&HRM_right_index_tap_v1B_TKZ I'
+  - '&HRM_right_index_tap_v1B_TKZ O'
+  - '&HRM_right_index_tap_v1B_TKZ P'
+  - '&HRM_right_index_tap_v1B_TKZ BSLH'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_index_tap_v1B_TKZ H'
+  - ''
+  - {t: '&HRM_right_index_tap_v1B_TKZ K', h: RGUI}
+  - {t: '&HRM_right_index_tap_v1B_TKZ L', h: Alt}
+  - {t: '&HRM_right_index_tap_v1B_TKZ SEMI', h: Ctrl}
+  - '&HRM_right_index_tap_v1B_TKZ SQT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_index_tap_v1B_TKZ N'
+  - '&HRM_right_index_tap_v1B_TKZ M'
+  - '&HRM_right_index_tap_v1B_TKZ COMMA'
+  - '&HRM_right_index_tap_v1B_TKZ DOT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  RightMiddy:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_middy_tap_v1B_TKZ F6'
+  - '&HRM_right_middy_tap_v1B_TKZ F7'
+  - '&HRM_right_middy_tap_v1B_TKZ F8'
+  - '&HRM_right_middy_tap_v1B_TKZ F9'
+  - '&HRM_right_middy_tap_v1B_TKZ F10'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_middy_tap_v1B_TKZ N6'
+  - '&HRM_right_middy_tap_v1B_TKZ N7'
+  - '&HRM_right_middy_tap_v1B_TKZ N8'
+  - '&HRM_right_middy_tap_v1B_TKZ N9'
+  - '&HRM_right_middy_tap_v1B_TKZ N0'
+  - '&HRM_right_middy_tap_v1B_TKZ MINUS'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_middy_tap_v1B_TKZ Y'
+  - '&HRM_right_middy_tap_v1B_TKZ U'
+  - '&HRM_right_middy_tap_v1B_TKZ I'
+  - '&HRM_right_middy_tap_v1B_TKZ O'
+  - '&HRM_right_middy_tap_v1B_TKZ P'
+  - '&HRM_right_middy_tap_v1B_TKZ BSLH'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_middy_tap_v1B_TKZ H'
+  - {t: '&HRM_right_middy_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
+  - ''
+  - {t: '&HRM_right_middy_tap_v1B_TKZ L', h: Alt}
+  - {t: '&HRM_right_middy_tap_v1B_TKZ SEMI', h: Ctrl}
+  - '&HRM_right_middy_tap_v1B_TKZ SQT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_middy_tap_v1B_TKZ N'
+  - '&HRM_right_middy_tap_v1B_TKZ M'
+  - '&HRM_right_middy_tap_v1B_TKZ COMMA'
+  - '&HRM_right_middy_tap_v1B_TKZ DOT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  RightRingy:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_ring_tap_v1B_TKZ F6'
+  - '&HRM_right_ring_tap_v1B_TKZ F7'
+  - '&HRM_right_ring_tap_v1B_TKZ F8'
+  - '&HRM_right_ring_tap_v1B_TKZ F9'
+  - '&HRM_right_ring_tap_v1B_TKZ F10'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_ring_tap_v1B_TKZ N6'
+  - '&HRM_right_ring_tap_v1B_TKZ N7'
+  - '&HRM_right_ring_tap_v1B_TKZ N8'
+  - '&HRM_right_ring_tap_v1B_TKZ N9'
+  - '&HRM_right_ring_tap_v1B_TKZ N0'
+  - '&HRM_right_ring_tap_v1B_TKZ MINUS'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_ring_tap_v1B_TKZ Y'
+  - '&HRM_right_ring_tap_v1B_TKZ U'
+  - '&HRM_right_ring_tap_v1B_TKZ I'
+  - '&HRM_right_ring_tap_v1B_TKZ O'
+  - '&HRM_right_ring_tap_v1B_TKZ P'
+  - '&HRM_right_ring_tap_v1B_TKZ BSLH'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_ring_tap_v1B_TKZ H'
+  - {t: '&HRM_right_ring_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '&HRM_right_ring_tap_v1B_TKZ K', h: RGUI}
+  - ''
+  - {t: '&HRM_right_ring_tap_v1B_TKZ SEMI', h: Ctrl}
+  - '&HRM_right_ring_tap_v1B_TKZ SQT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_ring_tap_v1B_TKZ N'
+  - '&HRM_right_ring_tap_v1B_TKZ M'
+  - '&HRM_right_ring_tap_v1B_TKZ COMMA'
+  - '&HRM_right_ring_tap_v1B_TKZ DOT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  RightPinky:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_pinky_tap_v1B_TKZ F6'
+  - '&HRM_right_pinky_tap_v1B_TKZ F7'
+  - '&HRM_right_pinky_tap_v1B_TKZ F8'
+  - '&HRM_right_pinky_tap_v1B_TKZ F9'
+  - '&HRM_right_pinky_tap_v1B_TKZ F10'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_pinky_tap_v1B_TKZ N6'
+  - '&HRM_right_pinky_tap_v1B_TKZ N7'
+  - '&HRM_right_pinky_tap_v1B_TKZ N8'
+  - '&HRM_right_pinky_tap_v1B_TKZ N9'
+  - '&HRM_right_pinky_tap_v1B_TKZ N0'
+  - '&HRM_right_pinky_tap_v1B_TKZ MINUS'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_pinky_tap_v1B_TKZ Y'
+  - '&HRM_right_pinky_tap_v1B_TKZ U'
+  - '&HRM_right_pinky_tap_v1B_TKZ I'
+  - '&HRM_right_pinky_tap_v1B_TKZ O'
+  - '&HRM_right_pinky_tap_v1B_TKZ P'
+  - '&HRM_right_pinky_tap_v1B_TKZ BSLH'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - A
+  - S
+  - D
+  - F
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_pinky_tap_v1B_TKZ H'
+  - {t: '&HRM_right_pinky_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '&HRM_right_pinky_tap_v1B_TKZ K', h: RGUI}
+  - {t: '&HRM_right_pinky_tap_v1B_TKZ L', h: Alt}
+  - ''
+  - '&HRM_right_pinky_tap_v1B_TKZ SQT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - '&HRM_right_pinky_tap_v1B_TKZ N'
+  - '&HRM_right_pinky_tap_v1B_TKZ M'
+  - '&HRM_right_pinky_tap_v1B_TKZ COMMA'
+  - '&HRM_right_pinky_tap_v1B_TKZ DOT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  Mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - {t: RGUI, h: sticky}
+  - {t: AltGr, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_UP'
+  - MouseFast
+  - MouseWarp
+  - MouseSlow
+  - '&mkp LCLK'
+  - '&mkp MB4'
+  - ''
+  - '&msc SCRL_DOWN'
+  - MouseSlow
+  - MouseWarp
+  - MouseFast
+  - '&msc SCRL_DOWN'
+  - '&mkp MCLK'
+  - APP
+  - '&mkp MB5'
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - '&mkp RCLK'
+  - '&mkp MB5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MB4'
+  - ''
+  - {type: held}
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MCLK'
+  - APP
+  MouseSlow:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -236,6 +1343,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -243,7 +1352,32 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  navigation:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  MouseFast:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -267,64 +1401,34 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - +
-  - {t: '7', s: F7}
-  - {t: '8', s: F8}
-  - {t: '9', s: F9}
-  - {t: '*', s: F11}
-  - Pg Up
-  - $$mdi:chevron-double-left$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:chevron-double-right$$
-  - Pg Down
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '0', s: F10}
-  - {t: '4', s: F4}
-  - {t: '5', s: F5}
-  - {t: '6', s: F6}
-  - {t: '=', s: F12}
-  - Home
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - End
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '-'
-  - {t: '1', s: F1}
-  - {t: '2', s: F2}
-  - {t: '3', s: F3}
-  - /
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: $$num-nav$$, h: Num/Nav, type: info}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - Print
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - €
-  - $
-  - £
-  - .
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - Esc
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:keyboard-return$$
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  gaming:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -347,81 +1451,192 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  MouseWarp:
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held alternate}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  Number:
   - ''
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
   - ''
-  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - ''
+  - ''
   - A
-  - S
-  - D
-  - F
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - ''
-  - Ctrl
-  - Z
-  - X
-  - C
-  - V
-  - T
-  - G
   - B
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:controller$$', h: Gaming, type: info}
-  - Alt
+  - C
+  - D
+  - E
   - ''
-  - ''
-  - ''
-  - $$mdi:keyboard-space$$
   - Esc
-  - '`'
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  magic:
+  - INS
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:backspace-reverse-outline$$
+  - ''
+  - '~'
+  - £
+  - $
+  - €
+  - '!'
+  - {t: AltGr+2, s: AltGr+"}
+  - E
+  - $$mdi:keyboard-return$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace$$
+  - {t: '0', s: )}
+  - Sft+G
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - Sft+.
+  - {t: Sft+5, s: Sft+%}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - Ctrl
+  - Alt
+  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
+  - $$mdi:apple-keyboard-shift$$
+  - X
+  - K
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - /
+  - +
+  - _
+  - Gui+A
+  - '&cur_SELECT_LINE_macos_v1_TKZ'
+  - '&cur_SELECT_WORD_macos_v1_TKZ'
+  - Gui+F
+  - F
+  - ''
+  - ''
+  - ''
+  - <
+  - '>'
+  - ','
+  - J
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: £}
+  - {t: Sft+7, s: Sft+&}
+  - Sft+#
+  - ''
+  - Sft+Z
+  - Gui+Sft+Z
+  - Gui+Sft+G
+  - Gui+G
+  - ''
+  - {type: held}
+  - ''
+  - '='
+  - .
+  - {t: '0', s: )}
+  - {t: AltGr+8, s: AltGr+*}
+  - ','
+  - .
+  - {t: AltGr+9, s: AltGr+(}
+  - AltGr+<
+  Magic:
+  - '&mstr1_v1_TKZ'
+  - '&mstr2_v1_TKZ'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: '$$mdi:bluetooth-off$$', h: Clear, type: info}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: '$$mdi:bluetooth-off$$', h: Clr All, type: info}
+  - {t: HRM_macOS, h: toggle}
+  - ''
+  - {t: Typing, h: toggle}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: Autoshift, h: toggle}
   - ''
   - ''
   - ''
@@ -470,7 +1685,7 @@ layers:
   - ''
   - ''
   - Reset
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -487,6 +1702,23 @@ layers:
   - ''
   - ''
 combos:
+- p: [51, 68]
+  k: {t: Gaming, h: toggle}
+- p: [9, 21]
+  k: F12
+  l: [Autoshift, HRM_macOS]
+- p: [74, 57]
+  k: {t: 'Gui+Alt+Ctl+$$mdi:apple-keyboard-shift$$', h: sticky}
+  l: [Autoshift, HRM_macOS]
+- p: [8, 20]
+  k: F11
+  l: [Autoshift, HRM_macOS]
+- p: [73, 74]
+  k: {t: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$', h: sticky}
+  l: [Autoshift, HRM_macOS]
 - p: [52, 57]
+  k: CAPS
+  l: [HRM_macOS, Autoshift]
+- p: [38, 41]
   k: $$mdi:apple-keyboard-caps$$
-  l: [default]
+  l: [HRM_macOS]
