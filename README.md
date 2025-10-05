@@ -22,8 +22,6 @@ The keyboard firmware can be built locally using `nix`, which is also used for [
 
 The images below are rendered in the build order produced by the keymap-drawer output. Per-finger layers (e.g. `LeftIndex`, `RightPinky`) are omitted for brevity — see the `img/` directory for those.
 
-![Overview](img/glove80.svg)
-
 ![HRM macOS](img/glove80_HRM_macOS.svg)
 
 ![Typing](img/glove80_Typing.svg)
