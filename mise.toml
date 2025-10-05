@@ -1,0 +1,21 @@
+# mise project configuration for glove80-config
+# This file creates a local Python venv and provides tasks to set up and draw keymaps.
+
+[tools]
+# Use a specific python runtime for venv creation
+python = "3.12"
+
+[env]
+# Automatic venv creation for Python
+_.python.venv = { path = ".venv", create = true }
+
+# Tasks: use the canonical tasks table format
+[tasks.setup]
+# Create the venv (if missing) and install Python tools needed for drawing
+run = "python -m venv .venv && .venv/bin/python -m pip install --upgrade pip setuptools wheel && .venv/bin/python -m pip install 'keymap-drawer==0.22.1' pyyaml"
+tools = { python = "3.12" }
+
+[tasks.draw]
+run = "bash scripts/draw-keymaps.sh"
+env = { MISE_ACTIVE = "1" }
+tools = { python = "3.12" }
