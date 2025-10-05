@@ -39,13 +39,6 @@ The images below are rendered in the build order produced by the keymap-drawer o
 ![Lower](img/glove80_Lower.svg)
 
 ![Mouse](img/glove80_Mouse.svg)
-
-![Mouse (Fast)](img/glove80_MouseFast.svg)
-
-![Mouse (Slow)](img/glove80_MouseSlow.svg)
-
-![Mouse (Warp)](img/glove80_MouseWarp.svg)
-
 ![Number](img/glove80_Number.svg)
 
 ![Magic Layer](img/glove80_Magic.svg)
