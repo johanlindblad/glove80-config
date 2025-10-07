@@ -14,15 +14,15 @@ layers:
   - ''
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
-  - {t: '3', s: £}
-  - {t: '4', s: $}
+  - {t: '3', s: '#'}
+  - {t: '4', s: ¤}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - '-'
+  - {t: '6', s: '&'}
+  - {t: '7', s: /}
+  - {t: '8', s: (}
+  - {t: '9', s: )}
+  - {t: '0', s: EQ}
+  - {t: +, s: '?'}
   - ''
   - Q
   - W
@@ -34,52 +34,52 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: Sft+2, s: '#'}
-  - {t: A, h: '&HRM_left_pinky_hold_v1B_TKZ LCTRL'}
-  - {t: S, h: '&HRM_left_ring_hold_v1B_TKZ LALT'}
-  - {t: D, h: '&HRM_left_middy_hold_v1B_TKZ LGUI'}
-  - {t: F, h: '&HRM_left_index_hold_v1B_TKZ LSHFT'}
+  - Å
+  - {t: '"', s: ''''}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: '&HRM_right_index_hold_v1B_TKZ RSHFT'}
-  - {t: K, h: '&HRM_right_middy_hold_v1B_TKZ RGUI'}
-  - {t: L, h: '&HRM_right_ring_hold_v1B_TKZ LALT'}
-  - {t: ;, h: '&HRM_right_pinky_hold_v1B_TKZ RCTRL'}
-  - ''''
-  - '&lower'
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ö, h: '$$mdi:apple-keyboard-control$$'}
+  - Ä
+  - {t: '$$mdi:arrow-down-left-bold$$', h: Lower}
   - Z
   - X
   - C
   - V
   - B
   - Esc
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&mac_line_home'
-  - '&mac_line_end'
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:arrow-collapse-left$$', h: Line}
+  - {t: '$$mdi:arrow-collapse-right$$', h: Line}
   - $$mdi:keyboard-return$$
   - N
   - M
-  - ','
-  - .
-  - /
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '-', s: _}
   - ''
-  - {t: '&rgb_ug_status_macro', h: Magic}
-  - {t: Alt+7, s: Alt+7}
-  - {t: Alt+8, s: Alt+8}
-  - {t: Alt+9, s: Alt+9}
-  - {t: '&tilde_dead_space', s: '&caret_lit'}
+  - {t: $$moergo$$, h: Magic, type: info}
+  - {t: '|', s: \}
+  - {t: '{', s: '['}
+  - {t: '}', s: ']'}
+  - {t: '~', s: ^}
   - {t: '$$mdi:backspace$$', h: Cursor}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Number}
-  - '&se_slash'
-  - '&se_colon'
+  - /
+  - ':'
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
   - {t: '$$mdi:keyboard-space$$', h: Symbol}
-  - '#'
-  - \
-  - '&se_gt'
-  - '='
+  - {t: '''', s: '*'}
+  - {t: <, s: '>'}
+  - '>'
+  - {t: ´, s: '`'}
   - ''
   Typing:
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -126,7 +126,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - Ö
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -173,63 +173,61 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&AS_v1_TKZ EQUAL'
-  - '&AS_v1_TKZ N1'
-  - '&AS_v1_TKZ N2'
-  - '&AS_v1_TKZ N3'
-  - '&AS_v1_TKZ N4'
-  - '&AS_v1_TKZ N5'
-  - '&AS_v1_TKZ N6'
-  - '&AS_v1_TKZ N7'
-  - '&AS_v1_TKZ N8'
-  - '&AS_v1_TKZ N9'
-  - '&AS_v1_TKZ N0'
-  - '&AS_v1_TKZ MINUS'
+  - {t: ´, h: '$$mdi:apple-keyboard-shift$$', s: '`', type: autoshift}
+  - {t: '1', h: '$$mdi:apple-keyboard-shift$$', s: '!', type: autoshift}
+  - {t: '2', h: '$$mdi:apple-keyboard-shift$$', s: '"', type: autoshift}
+  - {t: '3', h: '$$mdi:apple-keyboard-shift$$', s: '#', type: autoshift}
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: ¤, type: autoshift}
+  - {t: '5', h: '$$mdi:apple-keyboard-shift$$', s: '%', type: autoshift}
+  - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: '&', type: autoshift}
+  - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: /, type: autoshift}
+  - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: (, type: autoshift}
+  - {t: '9', h: '$$mdi:apple-keyboard-shift$$', s: ), type: autoshift}
+  - {t: '0', h: '$$mdi:apple-keyboard-shift$$', s: EQ, type: autoshift}
+  - {t: +, h: '$$mdi:apple-keyboard-shift$$', s: '?', type: autoshift}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&AS_v1_TKZ Q'
-  - '&AS_v1_TKZ W'
-  - '&AS_v1_TKZ E'
-  - '&AS_v1_TKZ R'
-  - '&AS_v1_TKZ T'
-  - '&AS_v1_TKZ Y'
-  - '&AS_v1_TKZ U'
-  - '&AS_v1_TKZ I'
-  - '&AS_v1_TKZ O'
-  - '&AS_v1_TKZ P'
-  - '&AS_v1_TKZ LBKT'
+  - {t: Q, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: W, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: R, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: Y, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: U, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: P, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: Å, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&AS_v1_TKZ A'
-  - '&AS_v1_TKZ S'
-  - '&AS_v1_TKZ D'
-  - '&AS_v1_TKZ F'
-  - '&AS_v1_TKZ G'
-  - '&AS_v1_TKZ H'
-  - '&AS_v1_TKZ J'
-  - '&AS_v1_TKZ K'
-  - '&AS_v1_TKZ L'
-  - '&AS_v1_TKZ SEMI'
-  - '&AS_v1_TKZ SQT'
-  - '&AS_v1_TKZ GRAVE'
-  - '&AS_v1_TKZ Z'
-  - '&AS_v1_TKZ X'
-  - '&AS_v1_TKZ C'
-  - '&AS_v1_TKZ V'
-  - '&AS_v1_TKZ B'
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: G, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: Ö, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: Ä, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: <, h: '$$mdi:apple-keyboard-shift$$', s: '>', type: autoshift}
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: X, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: V, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: B, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&AS_v1_TKZ N'
-  - '&AS_v1_TKZ M'
-  - '&AS_v1_TKZ COMMA'
-  - '&AS_v1_TKZ DOT'
-  - '&AS_v1_TKZ FSLH'
-  - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '&rgb_ug_status_macro', h: Magic}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: M, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: ;, type: autoshift}
+  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: ':', type: autoshift}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _, type: autoshift}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: $$moergo$$, h: Magic, type: info}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -240,8 +238,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&AS_v1_TKZ LBKT'
-  - '&AS_v1_TKZ RBKT'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: Å, h: '$$mdi:apple-keyboard-shift$$', type: autoshift}
+  - {t: ¨, h: '$$mdi:apple-keyboard-shift$$', s: ^, type: autoshift}
   - {t: '$$mdi:chevron-down$$', type: trans}
   Cursor:
   - ''
@@ -271,59 +271,59 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace$$
-  - Gui+X
-  - Gui+X
+  - {t: '$$mdi:content-cut$$', h: Cut}
+  - {t: '$$mdi:content-cut$$', h: Cut}
   - $$mdi:keyboard-tab-reverse$$
-  - Gui+Z
-  - Gui+Sft+Z
+  - {t: '$$mdi:undo-variant$$', h: Undo}
+  - {t: '$$mdi:redo-variant$$', h: Redo}
   - $$mdi:keyboard-tab$$
   - ''
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - Ctrl
   - Alt
-  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
+  - {t: '$$mdi:apple-keyboard-command$$', h: Meta, type: info}
   - $$mdi:apple-keyboard-shift$$
-  - Gui+C
+  - {t: '$$mdi:content-copy$$', h: Copy}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - ''
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - Gui+L
-  - Gui+A
+  - {t: '$$mdi:open-in-app$$', h: URL Bar}
+  - {t: '$$mdi:select-all$$', h: Select All}
   - '&cur_SELECT_LINE_macos_v1_TKZ'
   - '&cur_SELECT_WORD_macos_v1_TKZ'
-  - Gui+F
-  - Gui+V
+  - {t: '$$mdi:magnify$$', h: Find}
+  - {t: '$$mdi:content-paste$$', h: Paste}
   - '&mod_tab_v2_TKZ LGUI'
   - '&mod_tab_v2_TKZ LALT'
   - Print
   - '&cur_SELECT_NONE_v1_TKZ'
   - '&cur_EXTEND_LINE_macos_v1_TKZ'
   - '&cur_EXTEND_WORD_macos_v1_TKZ'
-  - Gui+V
+  - {t: '$$mdi:content-paste$$', h: Paste}
   - Home
   - Pg Up
   - Pg Down
   - End
-  - Gui+L
-  - Gui+K
-  - Gui+Z
-  - Gui+Sft+Z
-  - Gui+Sft+G
-  - Gui+G
+  - {t: '$$mdi:open-in-app$$', h: URL Bar}
+  - {t: '$$mdi:card-search-outline$$', h: Search Bar}
+  - {t: '$$mdi:undo-variant$$', h: Undo}
+  - {t: '$$mdi:redo-variant$$', h: Redo}
+  - {t: '$$mdi:page-previous-outline$$', h: Find Prev}
+  - {t: '$$mdi:page-next-outline$$', h: Find Next}
   - {type: held}
   - '&mod_tab_v2_TKZ LCTRL'
   - Gui+F3
-  - Gui+A
+  - {t: '$$mdi:select-all$$', h: Select All}
   - '&cur_SELECT_LINE_macos_v1_TKZ'
   - '&cur_SELECT_WORD_macos_v1_TKZ'
-  - Gui+F
-  - Gui+Sft+G
-  - Gui+G
+  - {t: '$$mdi:magnify$$', h: Find}
+  - {t: '$$mdi:page-previous-outline$$', h: Find Prev}
+  - {t: '$$mdi:page-next-outline$$', h: Find Next}
   - Ctl+H
-  - Gui+K
+  - {t: '$$mdi:card-search-outline$$', h: Search Bar}
   Symbol:
   - ''
   - ''
@@ -335,68 +335,68 @@ layers:
   - ''
   - ''
   - ''
-  - '&se_backtick'
-  - '&se_rbrack'
-  - '&se_lparen'
-  - '&se_rparen'
-  - '&se_semicolon'
-  - .
+  - '`'
+  - ']'
+  - (
+  - )
+  - ;
+  - {t: ., s: ':'}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - '&se_lbrack'
-  - '&se_exclam'
-  - '&se_lcurl'
-  - '&se_rcurl'
-  - '&se_comma'
-  - '&se_question'
-  - '&se_backtick'
+  - '['
+  - '!'
+  - '{'
+  - '}'
+  - ','
+  - '?'
+  - '`'
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: RGUI, h: sticky}
-  - {t: AltGr, h: sticky}
+  - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - ''
-  - £
-  - '&se_circon'
-  - '&se_equal'
-  - '&se_underscore'
-  - '&se_dollar'
-  - '&se_asterisk'
-  - '&se_quote'
+  - '#'
+  - ^
+  - '='
+  - _
+  - $
+  - '*'
+  - '"'
   - $$mdi:backspace$$
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-return$$
   - ''
-  - '&se_tilde'
-  - '&se_lt'
-  - '&se_pipe'
+  - '~'
+  - <
+  - '|'
+  - {t: '-', s: _}
+  - '>'
   - /
-  - '&se_gt'
-  - '&se_slash'
-  - '&se_backslash'
-  - .
-  - '&se_asterisk'
+  - \
+  - {t: ., s: ':'}
+  - '*'
   - ''
   - ''
   - ''
-  - '#'
+  - {t: '''', s: '*'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab-reverse$$
   - INS
   - Esc
   - ''
-  - '&symb_dotdot_v1_TKZ'
-  - '&se_amp'
-  - '#'
-  - '&se_quote'
-  - '-'
-  - '&se_percent'
-  - '&se_colon'
-  - '&se_at'
+  - ..
+  - '&'
+  - {t: '''', s: '*'}
+  - '"'
+  - {t: +, s: '?'}
+  - '%'
+  - ':'
+  - '@'
   - ''
   - ''
   - {type: held}
@@ -417,11 +417,11 @@ layers:
   - F4
   - F5
   - M
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '6', s: '&'}
+  - {t: '7', s: /}
+  - {t: '8', s: (}
+  - {t: '9', s: )}
+  - {t: '0', s: EQ}
   - F6
   - F7
   - F8
@@ -431,8 +431,8 @@ layers:
   - I
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
-  - {t: '3', s: £}
-  - {t: '4', s: $}
+  - {t: '3', s: '#'}
+  - {t: '4', s: ¤}
   - {t: '5', s: '%'}
   - Y
   - U
@@ -450,8 +450,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - Ö
+  - Ä
   - G
   - $$mdi:apple-keyboard-shift$$
   - A
@@ -466,10 +466,10 @@ layers:
   - $$mdi:keyboard-return$$
   - N
   - M
-  - ','
-  - .
-  - /
-  - '-'
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '-', s: _}
+  - {t: +, s: '?'}
   - B
   - Ctrl
   - Z
@@ -481,11 +481,11 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '`'
-  - '['
-  - ']'
-  - '#'
-  - '='
+  - {t: <, s: '>'}
+  - Å
+  - {t: ¨, s: ^}
+  - {t: '''', s: '*'}
+  - {t: ´, s: '`'}
   Lower:
   - BRI DN
   - BRI UP
@@ -503,9 +503,9 @@ layers:
   - ''
   - ''
   - Home
-  - '&se_lparen'
-  - Num Lock
-  - '='
+  - (
+  - KP NUM
+  - EQ
   - /
   - '*'
   - Print
@@ -515,7 +515,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - ''
   - End
-  - '&se_rparen'
+  - )
   - '7'
   - '8'
   - '9'
@@ -545,13 +545,13 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&se_np_comma'
+  - ','
   - '1'
   - '2'
   - '3'
   - KP ENTER
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '&rgb_ug_status_macro', h: Magic}
+  - {t: $$moergo$$, h: Magic, type: info}
   - CAPS
   - INS
   - F11
@@ -568,22 +568,22 @@ layers:
   - KP ENTER
   - {t: '$$mdi:chevron-down$$', type: trans}
   LeftIndex:
-  - '&HRM_left_index_tap_v1B_TKZ F1'
-  - '&HRM_left_index_tap_v1B_TKZ F2'
-  - '&HRM_left_index_tap_v1B_TKZ F3'
-  - '&HRM_left_index_tap_v1B_TKZ F4'
-  - '&HRM_left_index_tap_v1B_TKZ F5'
+  - {t: F1, type: passthrough}
+  - {t: F2, type: passthrough}
+  - {t: F3, type: passthrough}
+  - {t: F4, type: passthrough}
+  - {t: F5, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_index_tap_v1B_TKZ EQUAL'
-  - '&HRM_left_index_tap_v1B_TKZ N1'
-  - '&HRM_left_index_tap_v1B_TKZ N2'
-  - '&HRM_left_index_tap_v1B_TKZ N3'
-  - '&HRM_left_index_tap_v1B_TKZ N4'
-  - '&HRM_left_index_tap_v1B_TKZ N5'
+  - {t: ´, s: '`', type: passthrough}
+  - {t: '1', s: '!', type: passthrough}
+  - {t: '2', s: '"', type: passthrough}
+  - {t: '3', s: '#', type: passthrough}
+  - {t: '4', s: ¤, type: passthrough}
+  - {t: '5', s: '%', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -591,11 +591,11 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_index_tap_v1B_TKZ Q'
-  - '&HRM_left_index_tap_v1B_TKZ W'
-  - '&HRM_left_index_tap_v1B_TKZ E'
-  - '&HRM_left_index_tap_v1B_TKZ R'
-  - '&HRM_left_index_tap_v1B_TKZ T'
+  - {t: Q, type: passthrough}
+  - {t: W, type: passthrough}
+  - {t: E, type: passthrough}
+  - {t: R, type: passthrough}
+  - {t: T, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -605,21 +605,21 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '&HRM_left_index_tap_v1B_TKZ A', h: Ctrl}
   - {t: '&HRM_left_index_tap_v1B_TKZ S', h: Alt}
-  - {t: '&HRM_left_index_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '&HRM_left_index_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
   - ''
-  - '&HRM_left_index_tap_v1B_TKZ G'
+  - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
   - K
   - L
-  - ;
+  - Ö
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_index_tap_v1B_TKZ Z'
-  - '&HRM_left_index_tap_v1B_TKZ X'
-  - '&HRM_left_index_tap_v1B_TKZ C'
-  - '&HRM_left_index_tap_v1B_TKZ V'
-  - '&HRM_left_index_tap_v1B_TKZ B'
+  - {t: Z, type: passthrough}
+  - {t: X, type: passthrough}
+  - {t: C, type: passthrough}
+  - {t: V, type: passthrough}
+  - {t: B, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -649,22 +649,22 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   LeftMiddy:
-  - '&HRM_left_middy_tap_v1B_TKZ F1'
-  - '&HRM_left_middy_tap_v1B_TKZ F2'
-  - '&HRM_left_middy_tap_v1B_TKZ F3'
-  - '&HRM_left_middy_tap_v1B_TKZ F4'
-  - '&HRM_left_middy_tap_v1B_TKZ F5'
+  - {t: F1, type: passthrough}
+  - {t: F2, type: passthrough}
+  - {t: F3, type: passthrough}
+  - {t: F4, type: passthrough}
+  - {t: F5, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_middy_tap_v1B_TKZ EQUAL'
-  - '&HRM_left_middy_tap_v1B_TKZ N1'
-  - '&HRM_left_middy_tap_v1B_TKZ N2'
-  - '&HRM_left_middy_tap_v1B_TKZ N3'
-  - '&HRM_left_middy_tap_v1B_TKZ N4'
-  - '&HRM_left_middy_tap_v1B_TKZ N5'
+  - {t: ´, s: '`', type: passthrough}
+  - {t: '1', s: '!', type: passthrough}
+  - {t: '2', s: '"', type: passthrough}
+  - {t: '3', s: '#', type: passthrough}
+  - {t: '4', s: ¤, type: passthrough}
+  - {t: '5', s: '%', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -672,11 +672,11 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_middy_tap_v1B_TKZ Q'
-  - '&HRM_left_middy_tap_v1B_TKZ W'
-  - '&HRM_left_middy_tap_v1B_TKZ E'
-  - '&HRM_left_middy_tap_v1B_TKZ R'
-  - '&HRM_left_middy_tap_v1B_TKZ T'
+  - {t: Q, type: passthrough}
+  - {t: W, type: passthrough}
+  - {t: E, type: passthrough}
+  - {t: R, type: passthrough}
+  - {t: T, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -688,19 +688,19 @@ layers:
   - {t: '&HRM_left_middy_tap_v1B_TKZ S', h: Alt}
   - ''
   - {t: '&HRM_left_middy_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
-  - '&HRM_left_middy_tap_v1B_TKZ G'
+  - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
   - K
   - L
-  - ;
+  - Ö
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_middy_tap_v1B_TKZ Z'
-  - '&HRM_left_middy_tap_v1B_TKZ X'
-  - '&HRM_left_middy_tap_v1B_TKZ C'
-  - '&HRM_left_middy_tap_v1B_TKZ V'
-  - '&HRM_left_middy_tap_v1B_TKZ B'
+  - {t: Z, type: passthrough}
+  - {t: X, type: passthrough}
+  - {t: C, type: passthrough}
+  - {t: V, type: passthrough}
+  - {t: B, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -730,22 +730,22 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   LeftRingy:
-  - '&HRM_left_ring_tap_v1B_TKZ F1'
-  - '&HRM_left_ring_tap_v1B_TKZ F2'
-  - '&HRM_left_ring_tap_v1B_TKZ F3'
-  - '&HRM_left_ring_tap_v1B_TKZ F4'
-  - '&HRM_left_ring_tap_v1B_TKZ F5'
+  - {t: F1, type: passthrough}
+  - {t: F2, type: passthrough}
+  - {t: F3, type: passthrough}
+  - {t: F4, type: passthrough}
+  - {t: F5, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_ring_tap_v1B_TKZ EQUAL'
-  - '&HRM_left_ring_tap_v1B_TKZ N1'
-  - '&HRM_left_ring_tap_v1B_TKZ N2'
-  - '&HRM_left_ring_tap_v1B_TKZ N3'
-  - '&HRM_left_ring_tap_v1B_TKZ N4'
-  - '&HRM_left_ring_tap_v1B_TKZ N5'
+  - {t: ´, s: '`', type: passthrough}
+  - {t: '1', s: '!', type: passthrough}
+  - {t: '2', s: '"', type: passthrough}
+  - {t: '3', s: '#', type: passthrough}
+  - {t: '4', s: ¤, type: passthrough}
+  - {t: '5', s: '%', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -753,11 +753,11 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_ring_tap_v1B_TKZ Q'
-  - '&HRM_left_ring_tap_v1B_TKZ W'
-  - '&HRM_left_ring_tap_v1B_TKZ E'
-  - '&HRM_left_ring_tap_v1B_TKZ R'
-  - '&HRM_left_ring_tap_v1B_TKZ T'
+  - {t: Q, type: passthrough}
+  - {t: W, type: passthrough}
+  - {t: E, type: passthrough}
+  - {t: R, type: passthrough}
+  - {t: T, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -767,21 +767,21 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '&HRM_left_ring_tap_v1B_TKZ A', h: Ctrl}
   - ''
-  - {t: '&HRM_left_ring_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '&HRM_left_ring_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '&HRM_left_ring_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
-  - '&HRM_left_ring_tap_v1B_TKZ G'
+  - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
   - K
   - L
-  - ;
+  - Ö
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_ring_tap_v1B_TKZ Z'
-  - '&HRM_left_ring_tap_v1B_TKZ X'
-  - '&HRM_left_ring_tap_v1B_TKZ C'
-  - '&HRM_left_ring_tap_v1B_TKZ V'
-  - '&HRM_left_ring_tap_v1B_TKZ B'
+  - {t: Z, type: passthrough}
+  - {t: X, type: passthrough}
+  - {t: C, type: passthrough}
+  - {t: V, type: passthrough}
+  - {t: B, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -811,22 +811,22 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   LeftPinky:
-  - '&HRM_left_pinky_tap_v1B_TKZ F1'
-  - '&HRM_left_pinky_tap_v1B_TKZ F2'
-  - '&HRM_left_pinky_tap_v1B_TKZ F3'
-  - '&HRM_left_pinky_tap_v1B_TKZ F4'
-  - '&HRM_left_pinky_tap_v1B_TKZ F5'
+  - {t: F1, type: passthrough}
+  - {t: F2, type: passthrough}
+  - {t: F3, type: passthrough}
+  - {t: F4, type: passthrough}
+  - {t: F5, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_pinky_tap_v1B_TKZ EQUAL'
-  - '&HRM_left_pinky_tap_v1B_TKZ N1'
-  - '&HRM_left_pinky_tap_v1B_TKZ N2'
-  - '&HRM_left_pinky_tap_v1B_TKZ N3'
-  - '&HRM_left_pinky_tap_v1B_TKZ N4'
-  - '&HRM_left_pinky_tap_v1B_TKZ N5'
+  - {t: ´, s: '`', type: passthrough}
+  - {t: '1', s: '!', type: passthrough}
+  - {t: '2', s: '"', type: passthrough}
+  - {t: '3', s: '#', type: passthrough}
+  - {t: '4', s: ¤, type: passthrough}
+  - {t: '5', s: '%', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -834,11 +834,11 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_pinky_tap_v1B_TKZ Q'
-  - '&HRM_left_pinky_tap_v1B_TKZ W'
-  - '&HRM_left_pinky_tap_v1B_TKZ E'
-  - '&HRM_left_pinky_tap_v1B_TKZ R'
-  - '&HRM_left_pinky_tap_v1B_TKZ T'
+  - {t: Q, type: passthrough}
+  - {t: W, type: passthrough}
+  - {t: E, type: passthrough}
+  - {t: R, type: passthrough}
+  - {t: T, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -848,21 +848,21 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - ''
   - {t: '&HRM_left_pinky_tap_v1B_TKZ S', h: Alt}
-  - {t: '&HRM_left_pinky_tap_v1B_TKZ D', h: '$$mdi:monitor-dashboard$$'}
+  - {t: '&HRM_left_pinky_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '&HRM_left_pinky_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
-  - '&HRM_left_pinky_tap_v1B_TKZ G'
+  - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
   - K
   - L
-  - ;
+  - Ö
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_left_pinky_tap_v1B_TKZ Z'
-  - '&HRM_left_pinky_tap_v1B_TKZ X'
-  - '&HRM_left_pinky_tap_v1B_TKZ C'
-  - '&HRM_left_pinky_tap_v1B_TKZ V'
-  - '&HRM_left_pinky_tap_v1B_TKZ B'
+  - {t: Z, type: passthrough}
+  - {t: X, type: passthrough}
+  - {t: C, type: passthrough}
+  - {t: V, type: passthrough}
+  - {t: B, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -978,47 +978,47 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_middy_tap_v1B_TKZ F6'
-  - '&HRM_right_middy_tap_v1B_TKZ F7'
-  - '&HRM_right_middy_tap_v1B_TKZ F8'
-  - '&HRM_right_middy_tap_v1B_TKZ F9'
-  - '&HRM_right_middy_tap_v1B_TKZ F10'
+  - {t: F6, type: passthrough}
+  - {t: F7, type: passthrough}
+  - {t: F8, type: passthrough}
+  - {t: F9, type: passthrough}
+  - {t: F10, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_middy_tap_v1B_TKZ N6'
-  - '&HRM_right_middy_tap_v1B_TKZ N7'
-  - '&HRM_right_middy_tap_v1B_TKZ N8'
-  - '&HRM_right_middy_tap_v1B_TKZ N9'
-  - '&HRM_right_middy_tap_v1B_TKZ N0'
-  - '&HRM_right_middy_tap_v1B_TKZ MINUS'
+  - {t: '6', s: '&', type: passthrough}
+  - {t: '7', s: /, type: passthrough}
+  - {t: '8', s: (, type: passthrough}
+  - {t: '9', s: ), type: passthrough}
+  - {t: '0', s: EQ, type: passthrough}
+  - {t: +, s: '?', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_middy_tap_v1B_TKZ Y'
-  - '&HRM_right_middy_tap_v1B_TKZ U'
-  - '&HRM_right_middy_tap_v1B_TKZ I'
-  - '&HRM_right_middy_tap_v1B_TKZ O'
-  - '&HRM_right_middy_tap_v1B_TKZ P'
-  - '&HRM_right_middy_tap_v1B_TKZ BSLH'
+  - {t: Y, type: passthrough}
+  - {t: U, type: passthrough}
+  - {t: I, type: passthrough}
+  - {t: O, type: passthrough}
+  - {t: P, type: passthrough}
+  - {t: '''', s: '*', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - A
   - S
   - D
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_middy_tap_v1B_TKZ H'
+  - {t: H, type: passthrough}
   - {t: '&HRM_right_middy_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
   - ''
   - {t: '&HRM_right_middy_tap_v1B_TKZ L', h: Alt}
   - {t: '&HRM_right_middy_tap_v1B_TKZ SEMI', h: Ctrl}
-  - '&HRM_right_middy_tap_v1B_TKZ SQT'
+  - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1031,10 +1031,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_middy_tap_v1B_TKZ N'
-  - '&HRM_right_middy_tap_v1B_TKZ M'
-  - '&HRM_right_middy_tap_v1B_TKZ COMMA'
-  - '&HRM_right_middy_tap_v1B_TKZ DOT'
+  - {t: N, type: passthrough}
+  - {t: M, type: passthrough}
+  - {t: ',', s: ;, type: passthrough}
+  - {t: ., s: ':', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1059,47 +1059,47 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_ring_tap_v1B_TKZ F6'
-  - '&HRM_right_ring_tap_v1B_TKZ F7'
-  - '&HRM_right_ring_tap_v1B_TKZ F8'
-  - '&HRM_right_ring_tap_v1B_TKZ F9'
-  - '&HRM_right_ring_tap_v1B_TKZ F10'
+  - {t: F6, type: passthrough}
+  - {t: F7, type: passthrough}
+  - {t: F8, type: passthrough}
+  - {t: F9, type: passthrough}
+  - {t: F10, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_ring_tap_v1B_TKZ N6'
-  - '&HRM_right_ring_tap_v1B_TKZ N7'
-  - '&HRM_right_ring_tap_v1B_TKZ N8'
-  - '&HRM_right_ring_tap_v1B_TKZ N9'
-  - '&HRM_right_ring_tap_v1B_TKZ N0'
-  - '&HRM_right_ring_tap_v1B_TKZ MINUS'
+  - {t: '6', s: '&', type: passthrough}
+  - {t: '7', s: /, type: passthrough}
+  - {t: '8', s: (, type: passthrough}
+  - {t: '9', s: ), type: passthrough}
+  - {t: '0', s: EQ, type: passthrough}
+  - {t: +, s: '?', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_ring_tap_v1B_TKZ Y'
-  - '&HRM_right_ring_tap_v1B_TKZ U'
-  - '&HRM_right_ring_tap_v1B_TKZ I'
-  - '&HRM_right_ring_tap_v1B_TKZ O'
-  - '&HRM_right_ring_tap_v1B_TKZ P'
-  - '&HRM_right_ring_tap_v1B_TKZ BSLH'
+  - {t: Y, type: passthrough}
+  - {t: U, type: passthrough}
+  - {t: I, type: passthrough}
+  - {t: O, type: passthrough}
+  - {t: P, type: passthrough}
+  - {t: '''', s: '*', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - A
   - S
   - D
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_ring_tap_v1B_TKZ H'
+  - {t: H, type: passthrough}
   - {t: '&HRM_right_ring_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&HRM_right_ring_tap_v1B_TKZ K', h: RGUI}
   - ''
   - {t: '&HRM_right_ring_tap_v1B_TKZ SEMI', h: Ctrl}
-  - '&HRM_right_ring_tap_v1B_TKZ SQT'
+  - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1112,10 +1112,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_ring_tap_v1B_TKZ N'
-  - '&HRM_right_ring_tap_v1B_TKZ M'
-  - '&HRM_right_ring_tap_v1B_TKZ COMMA'
-  - '&HRM_right_ring_tap_v1B_TKZ DOT'
+  - {t: N, type: passthrough}
+  - {t: M, type: passthrough}
+  - {t: ',', s: ;, type: passthrough}
+  - {t: ., s: ':', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1140,47 +1140,47 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_pinky_tap_v1B_TKZ F6'
-  - '&HRM_right_pinky_tap_v1B_TKZ F7'
-  - '&HRM_right_pinky_tap_v1B_TKZ F8'
-  - '&HRM_right_pinky_tap_v1B_TKZ F9'
-  - '&HRM_right_pinky_tap_v1B_TKZ F10'
+  - {t: F6, type: passthrough}
+  - {t: F7, type: passthrough}
+  - {t: F8, type: passthrough}
+  - {t: F9, type: passthrough}
+  - {t: F10, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_pinky_tap_v1B_TKZ N6'
-  - '&HRM_right_pinky_tap_v1B_TKZ N7'
-  - '&HRM_right_pinky_tap_v1B_TKZ N8'
-  - '&HRM_right_pinky_tap_v1B_TKZ N9'
-  - '&HRM_right_pinky_tap_v1B_TKZ N0'
-  - '&HRM_right_pinky_tap_v1B_TKZ MINUS'
+  - {t: '6', s: '&', type: passthrough}
+  - {t: '7', s: /, type: passthrough}
+  - {t: '8', s: (, type: passthrough}
+  - {t: '9', s: ), type: passthrough}
+  - {t: '0', s: EQ, type: passthrough}
+  - {t: +, s: '?', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_pinky_tap_v1B_TKZ Y'
-  - '&HRM_right_pinky_tap_v1B_TKZ U'
-  - '&HRM_right_pinky_tap_v1B_TKZ I'
-  - '&HRM_right_pinky_tap_v1B_TKZ O'
-  - '&HRM_right_pinky_tap_v1B_TKZ P'
-  - '&HRM_right_pinky_tap_v1B_TKZ BSLH'
+  - {t: Y, type: passthrough}
+  - {t: U, type: passthrough}
+  - {t: I, type: passthrough}
+  - {t: O, type: passthrough}
+  - {t: P, type: passthrough}
+  - {t: '''', s: '*', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - A
   - S
   - D
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_pinky_tap_v1B_TKZ H'
+  - {t: H, type: passthrough}
   - {t: '&HRM_right_pinky_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&HRM_right_pinky_tap_v1B_TKZ K', h: RGUI}
   - {t: '&HRM_right_pinky_tap_v1B_TKZ L', h: Alt}
   - ''
-  - '&HRM_right_pinky_tap_v1B_TKZ SQT'
+  - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1193,10 +1193,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - '&HRM_right_pinky_tap_v1B_TKZ N'
-  - '&HRM_right_pinky_tap_v1B_TKZ M'
-  - '&HRM_right_pinky_tap_v1B_TKZ COMMA'
-  - '&HRM_right_pinky_tap_v1B_TKZ DOT'
+  - {t: N, type: passthrough}
+  - {t: M, type: passthrough}
+  - {t: ',', s: ;, type: passthrough}
+  - {t: ., s: ':', type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1247,34 +1247,34 @@ layers:
   - ''
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - {t: RGUI, h: sticky}
-  - {t: AltGr, h: sticky}
+  - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - ''
   - ''
-  - '&msc SCRL_UP'
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_UP'
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
   - MouseFast
   - MouseWarp
   - MouseSlow
   - '&mkp LCLK'
   - '&mkp MB4'
   - ''
-  - '&msc SCRL_DOWN'
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
   - MouseSlow
   - MouseWarp
   - MouseFast
-  - '&msc SCRL_DOWN'
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
   - '&mkp MCLK'
   - APP
   - '&mkp MB5'
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - '&msc SCRL_DOWN'
+  - {t: '$$mdi:content-cut$$', h: Cut}
+  - {t: '$$mdi:content-copy$$', h: Copy}
+  - {t: '$$mdi:content-paste$$', h: Paste}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
@@ -1556,10 +1556,10 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:backspace-reverse-outline$$
   - ''
-  - '~'
-  - £
+  - '|'
+  - '#'
   - $
-  - €
+  - {t: AltGr+4, s: AltGr+¤}
   - '!'
   - {t: AltGr+2, s: AltGr+"}
   - E
@@ -1567,59 +1567,59 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace$$
-  - {t: '0', s: )}
+  - {t: '0', s: EQ}
   - Sft+G
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - Sft+.
+  - {t: '7', s: /}
+  - {t: '8', s: (}
+  - {t: '9', s: )}
+  - {t: Sft+., s: 'Sft+:'}
   - {t: Sft+5, s: Sft+%}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - Ctrl
   - Alt
-  - {t: '$$mdi:monitor-dashboard$$', h: Meta, type: info}
+  - {t: '$$mdi:apple-keyboard-command$$', h: Meta, type: info}
   - $$mdi:apple-keyboard-shift$$
   - X
   - K
-  - {t: '4', s: $}
+  - {t: '4', s: ¤}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - /
+  - {t: '6', s: '&'}
+  - {t: '-', s: _}
   - +
   - _
-  - Gui+A
+  - {t: '$$mdi:select-all$$', h: Select All}
   - '&cur_SELECT_LINE_macos_v1_TKZ'
   - '&cur_SELECT_WORD_macos_v1_TKZ'
-  - Gui+F
+  - {t: '$$mdi:magnify$$', h: Find}
   - F
   - ''
   - ''
   - ''
-  - <
-  - '>'
-  - ','
+  - <?
+  - '>?'
+  - {t: ',', s: ;}
   - J
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
-  - {t: '3', s: £}
-  - {t: Sft+7, s: Sft+&}
-  - Sft+#
+  - {t: '3', s: '#'}
+  - {t: Sft+7, s: Sft+/}
+  - {t: Sft+', s: Sft+*}
   - ''
   - Sft+Z
-  - Gui+Sft+Z
-  - Gui+Sft+G
-  - Gui+G
+  - {t: '$$mdi:redo-variant$$', h: Redo}
+  - {t: '$$mdi:page-previous-outline$$', h: Find Prev}
+  - {t: '$$mdi:page-next-outline$$', h: Find Next}
   - ''
   - {type: held}
   - ''
-  - '='
-  - .
-  - {t: '0', s: )}
-  - {t: AltGr+8, s: AltGr+*}
-  - ','
-  - .
-  - {t: AltGr+9, s: AltGr+(}
-  - AltGr+<
+  - {t: ´, s: '`'}
+  - {t: ., s: ':'}
+  - {t: '0', s: EQ}
+  - {t: AltGr+8, s: AltGr+(}
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: AltGr+9, s: AltGr+)}
+  - AltGr+<?
   Magic:
   - '&mstr1_v1_TKZ'
   - '&mstr2_v1_TKZ'
@@ -1685,7 +1685,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
