@@ -2,3 +2,4 @@
 env/
 result
 .venv/
+.gitignore
