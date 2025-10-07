@@ -353,6 +353,21 @@ text.hold {
     }
 }
 
+.layer-HRM_macOS {
+  &amp; rect.HRM_shift {
+    fill: var(--yellow);
+  }
+  &amp; rect.HRM_command {
+    fill: var(--green);
+  }
+  &amp; rect.HRM_option {
+    fill: var(--blue1);
+  }
+  &amp; rect.HRM_control {
+    fill: var(--purple);
+  }
+}
+
 /* Template for RGB filling Template for RGB filling
 .layer-HRM_macOS .keypos-3 rect {
   fill: var(--red);
@@ -512,25 +527,25 @@ text.hold {
 <text x="0" y="0" class="key tap">&quot;</text>
 <text x="0" y="-24" class="key shifted">&#x27;</text>
 </g>
-<g transform="translate(84, 224)" class="key keypos-35">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">A</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<g transform="translate(84, 224)" class="key HRM_control keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_control"/>
+<text x="0" y="0" class="key HRM_control tap">A</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key HRM_control hold glyph mdi:apple-keyboard-control"/>
 </g>
-<g transform="translate(140, 196)" class="key keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">S</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<g transform="translate(140, 196)" class="key HRM_option keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_option"/>
+<text x="0" y="0" class="key HRM_option tap">S</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key HRM_option hold glyph mdi:apple-keyboard-option"/>
 </g>
-<g transform="translate(196, 196)" class="key keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">D</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
+<g transform="translate(196, 196)" class="key HRM_command keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_command"/>
+<text x="0" y="0" class="key HRM_command tap">D</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="12" height="12" width="12.0" class="key HRM_command hold glyph mdi:apple-keyboard-command"/>
 </g>
-<g transform="translate(252, 196)" class="key keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<g transform="translate(252, 196)" class="key HRM_shift keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_shift"/>
+<text x="0" y="0" class="key HRM_shift tap">F</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="12" height="12" width="12.0" class="key HRM_shift hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -540,25 +555,25 @@ text.hold {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">H</text>
 </g>
-<g transform="translate(756, 196)" class="key keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">J</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<g transform="translate(756, 196)" class="key HRM_shift keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_shift"/>
+<text x="0" y="0" class="key HRM_shift tap">J</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="12" height="12" width="12.0" class="key HRM_shift hold glyph mdi:apple-keyboard-shift"/>
 </g>
-<g transform="translate(812, 196)" class="key keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">K</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
+<g transform="translate(812, 196)" class="key HRM_command keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_command"/>
+<text x="0" y="0" class="key HRM_command tap">K</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="12" height="12" width="12.0" class="key HRM_command hold glyph mdi:apple-keyboard-command"/>
 </g>
-<g transform="translate(868, 196)" class="key keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">L</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<g transform="translate(868, 196)" class="key HRM_option keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_option"/>
+<text x="0" y="0" class="key HRM_option tap">L</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key HRM_option hold glyph mdi:apple-keyboard-option"/>
 </g>
-<g transform="translate(924, 224)" class="key keypos-44">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ö</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<g transform="translate(924, 224)" class="key HRM_control keypos-44">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key HRM_control"/>
+<text x="0" y="0" class="key HRM_control tap">Ö</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key HRM_control hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(980, 224)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

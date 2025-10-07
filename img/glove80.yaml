@@ -36,16 +36,16 @@ layers:
   - P
   - Å
   - {t: '"', s: ''''}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$', type: HRM_control}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$', type: HRM_option}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$', type: HRM_command}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$', type: HRM_shift}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Ö, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$', type: HRM_shift}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$', type: HRM_command}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$', type: HRM_option}
+  - {t: Ö, h: '$$mdi:apple-keyboard-control$$', type: HRM_control}
   - Ä
   - {t: '$$mdi:arrow-down-left-bold$$', h: Lower}
   - Z
@@ -279,8 +279,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - ''
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - Ctrl
-  - Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-command$$', h: Meta, type: info}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:content-copy$$', h: Copy}
@@ -355,9 +355,9 @@ layers:
   - '?'
   - '`'
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - {t: RGUI, h: sticky}
+  - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
   - {t: Alt, h: sticky}
-  - {t: Ctrl, h: sticky}
+  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
   - ''
   - '#'
   - ^
@@ -459,7 +459,7 @@ layers:
   - D
   - F
   - $$mdi:apple-keyboard-shift$$
-  - Alt
+  - $$mdi:apple-keyboard-option$$
   - V
   - Esc
   - $$mdi:arrow-up-bold$$
@@ -471,12 +471,12 @@ layers:
   - {t: '-', s: _}
   - {t: +, s: '?'}
   - B
-  - Ctrl
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - $$mdi:keyboard-space$$
-  - Ctrl
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-return$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -603,9 +603,9 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '&HRM_left_index_tap_v1B_TKZ A', h: Ctrl}
-  - {t: '&HRM_left_index_tap_v1B_TKZ S', h: Alt}
-  - {t: '&HRM_left_index_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, s: '$$mdi:apple-keyboard-control$$', type: HRM_shift}
+  - {t: '&HRM_left_index_tap_v1B_TKZ S', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-command$$', type: HRM_shift}
   - ''
   - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -684,10 +684,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '&HRM_left_middy_tap_v1B_TKZ A', h: Ctrl}
-  - {t: '&HRM_left_middy_tap_v1B_TKZ S', h: Alt}
+  - {t: A, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - ''
-  - {t: '&HRM_left_middy_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
@@ -765,10 +765,10 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '&HRM_left_ring_tap_v1B_TKZ A', h: Ctrl}
+  - {t: A, s: '$$mdi:apple-keyboard-control$$'}
   - ''
-  - {t: '&HRM_left_ring_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '&HRM_left_ring_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
@@ -847,9 +847,9 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - ''
-  - {t: '&HRM_left_pinky_tap_v1B_TKZ S', h: Alt}
-  - {t: '&HRM_left_pinky_tap_v1B_TKZ D', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '&HRM_left_pinky_tap_v1B_TKZ F', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - J
@@ -934,9 +934,9 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - '&HRM_right_index_tap_v1B_TKZ H'
   - ''
-  - {t: '&HRM_right_index_tap_v1B_TKZ K', h: RGUI}
-  - {t: '&HRM_right_index_tap_v1B_TKZ L', h: Alt}
-  - {t: '&HRM_right_index_tap_v1B_TKZ SEMI', h: Ctrl}
+  - {t: K, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ö, s: '$$mdi:apple-keyboard-control$$'}
   - '&HRM_right_index_tap_v1B_TKZ SQT'
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1014,10 +1014,10 @@ layers:
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: H, type: passthrough}
-  - {t: '&HRM_right_middy_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
   - ''
-  - {t: '&HRM_right_middy_tap_v1B_TKZ L', h: Alt}
-  - {t: '&HRM_right_middy_tap_v1B_TKZ SEMI', h: Ctrl}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ö, type: HRM_command}
   - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1095,10 +1095,10 @@ layers:
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: H, type: passthrough}
-  - {t: '&HRM_right_ring_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&HRM_right_ring_tap_v1B_TKZ K', h: RGUI}
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-command$$'}
   - ''
-  - {t: '&HRM_right_ring_tap_v1B_TKZ SEMI', h: Ctrl}
+  - {t: Ö, s: '$$mdi:apple-keyboard-control$$'}
   - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1176,9 +1176,9 @@ layers:
   - F
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: H, type: passthrough}
-  - {t: '&HRM_right_pinky_tap_v1B_TKZ J', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&HRM_right_pinky_tap_v1B_TKZ K', h: RGUI}
-  - {t: '&HRM_right_pinky_tap_v1B_TKZ L', h: Alt}
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - ''
   - {t: Ä, type: passthrough}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -1246,9 +1246,9 @@ layers:
   - ''
   - ''
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - {t: RGUI, h: sticky}
+  - {t: '$$mdi:apple-keyboard-command$$', h: sticky}
   - {t: Alt, h: sticky}
-  - {t: Ctrl, h: sticky}
+  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
   - ''
   - ''
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:mouse-scroll-wheel$$'}
@@ -1575,8 +1575,8 @@ layers:
   - {t: Sft+., s: 'Sft+:'}
   - {t: Sft+5, s: Sft+%}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - Ctrl
-  - Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-command$$', h: Meta, type: info}
   - $$mdi:apple-keyboard-shift$$
   - X

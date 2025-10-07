@@ -353,6 +353,21 @@ text.hold {
     }
 }
 
+.layer-HRM_macOS {
+  &amp; rect.HRM_shift {
+    fill: var(--yellow);
+  }
+  &amp; rect.HRM_command {
+    fill: var(--green);
+  }
+  &amp; rect.HRM_option {
+    fill: var(--blue1);
+  }
+  &amp; rect.HRM_control {
+    fill: var(--purple);
+  }
+}
+
 /* Template for RGB filling Template for RGB filling
 .layer-HRM_macOS .keypos-3 rect {
   fill: var(--red);
@@ -465,7 +480,7 @@ text.hold {
 </g>
 <g transform="translate(812, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RGUI</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:apple-keyboard-command"/>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
 </g>
 <g transform="translate(868, 140)" class="key keypos-31">
@@ -475,7 +490,7 @@ text.hold {
 </g>
 <g transform="translate(924, 168)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctrl</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:apple-keyboard-control"/>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
 </g>
 <g transform="translate(980, 168)" class="key keypos-33">

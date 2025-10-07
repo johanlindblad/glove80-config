@@ -101,6 +101,21 @@ draw_config:
             stroke: var(--light1);
         }
     }
+    
+    .layer-HRM_macOS {
+      &amp; rect.HRM_shift {
+        fill: var(--yellow);
+      }
+      &amp; rect.HRM_command {
+        fill: var(--green);
+      }
+      &amp; rect.HRM_option {
+        fill: var(--blue1);
+      }
+      &amp; rect.HRM_control {
+        fill: var(--purple);
+      }
+    }
 
     /* Template for RGB filling Template for RGB filling
     .layer-HRM_macOS .keypos-3 rect {
@@ -231,15 +246,19 @@ parse_config:
     '&HRM_left_pinky_v1B_TKZ': &hrm_ctrl
       tap: A
       hold: $$mdi:apple-keyboard-control$$
+      type: "HRM_control"
     '&HRM_left_ring_v1B_TKZ': &hrm_option
       tap: S
       hold: $$mdi:apple-keyboard-option$$
+      type: "HRM_option"
     '&HRM_left_middy_v1B_TKZ': &hrm_command
       tap: D
       hold: $$mdi:apple-keyboard-command$$
+      type: "HRM_command"
     '&HRM_left_index_v1B_TKZ': &hrm_shift
       tap: F
       hold: $$mdi:apple-keyboard-shift$$
+      type: "HRM_shift"
     '&HRM_right_pinky_v1B_TKZ':
       <<: *hrm_ctrl
       tap: Ö
@@ -252,6 +271,101 @@ parse_config:
     '&HRM_right_index_v1B_TKZ':
       <<: *hrm_shift
       tap: J
+    "&HRM_left_index_middy_v1B_TKZ":
+      tap: "D"
+      shifted: "$$mdi:apple-keyboard-command$$"
+      type: "HRM_shift"
+    "&HRM_left_index_ring_v1B_TKZ":
+      tap: "S"
+      shifted: "$$mdi:apple-keyboard-option$$"
+      type: "HRM_shift"
+    "&HRM_left_index_pinky_v1B_TKZ":
+      tap: "A"
+      shifted: "$$mdi:apple-keyboard-control$$"
+      type: "HRM_shift"
+
+    "&HRM_left_middy_index_v1B_TKZ":
+      tap: "F"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_left_middy_ring_v1B_TKZ":
+      tap: "S"
+      shifted: "$$mdi:apple-keyboard-option$$"
+    "&HRM_left_middy_pinky_v1B_TKZ":
+      tap: "A"
+      shifted: "$$mdi:apple-keyboard-control$$"
+
+    "&HRM_left_ring_index_v1B_TKZ":
+      tap: "F"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_left_ring_middy_v1B_TKZ":
+      tap: "D"
+      shifted: "$$mdi:apple-keyboard-command$$"
+    "&HRM_left_ring_pinky_v1B_TKZ":
+      tap: "A"
+      shifted: "$$mdi:apple-keyboard-control$$"
+
+    "&HRM_left_pinky_index_v1B_TKZ":
+      tap: "F"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_left_pinky_middy_v1B_TKZ":
+      tap: "D"
+      shifted: "$$mdi:apple-keyboard-command$$"
+    "&HRM_left_pinky_ring_v1B_TKZ":
+      tap: "S"
+      shifted: "$$mdi:apple-keyboard-option$$"
+
+    "&HRM_right_index_middy_v1B_TKZ":
+      tap: "K"
+      shifted: "$$mdi:apple-keyboard-command$$"
+    "&HRM_right_index_ring_v1B_TKZ":
+      tap: "L"
+      shifted: "$$mdi:apple-keyboard-option$$"
+    "&HRM_right_index_pinky_v1B_TKZ":
+      tap: "Ö"
+      shifted: "$$mdi:apple-keyboard-control$$"
+
+    "&HRM_right_middy_index_v1B_TKZ":
+      tap: "J"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_right_middy_ring_v1B_TKZ":
+      tap: "L"
+      shifted: "$$mdi:apple-keyboard-option$$"
+    "&HRM_right_middy_pinky_v1B_TKZ":
+      tap: "Ö"
+      type: "HRM_command"
+
+    "&HRM_right_ring_index_v1B_TKZ":
+      tap: "J"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_right_ring_middy_v1B_TKZ":
+      tap: "K"
+      shifted: "$$mdi:apple-keyboard-command$$"
+    "&HRM_right_ring_pinky_v1B_TKZ":
+      tap: "Ö"
+      shifted: "$$mdi:apple-keyboard-control$$"
+
+    "&HRM_right_pinky_index_v1B_TKZ":
+      tap: "J"
+      shifted: "$$mdi:apple-keyboard-shift$$"
+    "&HRM_right_pinky_middy_v1B_TKZ":
+      tap: "K"
+      shifted: "$$mdi:apple-keyboard-command$$"
+    "&HRM_right_pinky_ring_v1B_TKZ":
+      tap: "L"
+      shifted: "$$mdi:apple-keyboard-option$$"
+     # for each 
+      # finger in [left,right] and 
+      # held_finger in [index, middy, ring, pinky]
+      # tap_finger in held_finger where held_finger is not tap_finger
+      # modifier
+        #   index -> $$mdi:apple-keyboard-shift$$
+        #   middy -> $$mdi:apple-keyboard-command$$
+        #   ring -> $$mdi:apple-keyboard-option$$
+        #   pinky -> $$mdi:apple-keyboard-ctrl$$
+      # do
+      # '&HRM_#{finger)_#{held_finger}_#{tap_finger}_v1B_TKZ':
+      #   tap: #{key_on_that_finger_on_swedish_home_row}
+      #   shifted: #{modifier(held_finger)}
 
     '&mac_line_home':
       tap: $$mdi:arrow-collapse-left$$
@@ -288,11 +402,11 @@ parse_config:
     DEL: &del $$mdi:backspace-reverse-outline$$
     DELETE: *del
 
-    LALT: &lalt Alt
+    LALT: &lalt $$mdi:apple-keyboard-option$$
     LEFT_ALT: *lalt
     RALT: &ralt Alt # Not altgr?
     RIGHT_ALT: *ralt
-    LCTRL: &ctrl Ctrl
+    LCTRL: &ctrl $$mdi:apple-keyboard-control$$
     LEFT_CONTROL: *ctrl
     RCTRL: *ctrl
     RIGHT_CONTROL: *ctrl
@@ -309,6 +423,10 @@ parse_config:
     LEFT_GUI: *gui
     LMETA: *gui
     LEFT_META: *gui
+    RGUI: *gui
+    RG: *gui
+    RIGHT_GUI: *gui
+    RIGHT_META: *gui
 
     'LC(LEFT)': $$mdi:chevron-double-left$$
     'LC(RIGHT)': $$mdi:chevron-double-right$$
