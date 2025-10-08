@@ -32,7 +32,716 @@ draw_config:
     \   fill: var(--green);\n  }\n  &amp; rect.HRM_option {\n    fill: var(--blue1);\n
     \ }\n  &amp; rect.HRM_control {\n    fill: var(--purple);\n  }\n}\n\n/* Template
     for RGB filling Template for RGB filling\n.layer-HRM_macOS .keypos-3 rect {\n
-    \ fill: var(--red);\n}\n*/\n"
+    \ fill: var(--red);\n}\n*/\n\n.layer-Lower .keypos-0 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Lower .keypos-0 text.hold { fill: white;
+    }\n.layer-Lower .keypos-1 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%);
+    }\n.layer-Lower .keypos-1 text.hold { fill: white; }\n.layer-Lower .keypos-2 rect
+    { fill: color-mix(in srgb, #0000FF 70%, gray 30%); }\n.layer-Lower .keypos-2 text.hold
+    { fill: white; }\n.layer-Lower .keypos-3 rect { fill: color-mix(in srgb, #0000FF
+    70%, gray 30%); }\n.layer-Lower .keypos-3 text.hold { fill: white; }\n.layer-Lower
+    .keypos-4 rect { fill: color-mix(in srgb, #0000FF 70%, gray 30%); }\n.layer-Lower
+    .keypos-4 text.hold { fill: white; }\n.layer-Lower .keypos-5 rect { fill: color-mix(in
+    srgb, #0000FF 70%, gray 30%); }\n.layer-Lower .keypos-5 text.hold { fill: white;
+    }\n.layer-Lower .keypos-6 rect { fill: color-mix(in srgb, #0000FF 70%, gray 30%);
+    }\n.layer-Lower .keypos-6 text.hold { fill: white; }\n.layer-Lower .keypos-7 rect
+    { fill: color-mix(in srgb, #0000FF 70%, gray 30%); }\n.layer-Lower .keypos-7 text.hold
+    { fill: white; }\n.layer-Lower .keypos-9 rect { fill: color-mix(in srgb, #FF8000
+    70%, gray 30%); }\n.layer-Lower .keypos-9 text.hold { fill: white; }\n.layer-Lower
+    .keypos-15 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Lower
+    .keypos-15 text.hold { fill: white; }\n.layer-Lower .keypos-16 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower .keypos-17 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Lower .keypos-17 text.hold { fill: white;
+    }\n.layer-Lower .keypos-18 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Lower .keypos-19 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray
+    30%); }\n\n.layer-Lower .keypos-20 rect { fill: color-mix(in srgb, #FFFFFF 70%,
+    gray 30%); }\n\n.layer-Lower .keypos-21 rect { fill: color-mix(in srgb, #FF8000
+    70%, gray 30%); }\n.layer-Lower .keypos-21 text.hold { fill: white; }\n.layer-Lower
+    .keypos-25 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Lower
+    .keypos-25 text.hold { fill: white; }\n.layer-Lower .keypos-27 rect { fill: color-mix(in
+    srgb, #00FF00 70%, gray 30%); }\n.layer-Lower .keypos-27 text.hold { fill: white;
+    }\n.layer-Lower .keypos-28 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Lower .keypos-29 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Lower .keypos-29 text.hold { fill: white; }\n.layer-Lower .keypos-30
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower .keypos-30
+    text.hold { fill: white; }\n.layer-Lower .keypos-31 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower .keypos-31 text.hold { fill: white;
+    }\n.layer-Lower .keypos-32 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Lower .keypos-33 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Lower .keypos-33 text.hold { fill: white; }\n.layer-Lower .keypos-36
+    rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Lower .keypos-36
+    text.hold { fill: white; }\n.layer-Lower .keypos-37 rect { fill: color-mix(in
+    srgb, #00FF00 70%, gray 30%); }\n.layer-Lower .keypos-37 text.hold { fill: white;
+    }\n.layer-Lower .keypos-38 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%);
+    }\n.layer-Lower .keypos-38 text.hold { fill: white; }\n.layer-Lower .keypos-39
+    rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Lower .keypos-39
+    text.hold { fill: white; }\n.layer-Lower .keypos-40 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower .keypos-41 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower .keypos-41 text.hold { fill: white;
+    }\n.layer-Lower .keypos-42 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%);
+    }\n.layer-Lower .keypos-42 text.hold { fill: white; }\n.layer-Lower .keypos-43
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower .keypos-43
+    text.hold { fill: white; }\n.layer-Lower .keypos-44 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower .keypos-47 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Lower .keypos-47 text.hold { fill: white;
+    }\n.layer-Lower .keypos-49 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Lower .keypos-50 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray
+    30%); }\n\n.layer-Lower .keypos-51 rect { fill: color-mix(in srgb, #00FF00 70%,
+    gray 30%); }\n.layer-Lower .keypos-51 text.hold { fill: white; }\n.layer-Lower
+    .keypos-58 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower
+    .keypos-59 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower
+    .keypos-59 text.hold { fill: white; }\n.layer-Lower .keypos-60 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Lower .keypos-60 text.hold { fill: white;
+    }\n.layer-Lower .keypos-61 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%);
+    }\n.layer-Lower .keypos-61 text.hold { fill: white; }\n.layer-Lower .keypos-62
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower .keypos-65
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Lower .keypos-65
+    text.hold { fill: white; }\n.layer-Lower .keypos-66 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Lower .keypos-66 text.hold { fill: white;
+    }\n.layer-Lower .keypos-67 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Lower .keypos-68 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray
+    30%); }\n\n.layer-Lower .keypos-75 rect { fill: color-mix(in srgb, #FF8000 70%,
+    gray 30%); }\n.layer-Lower .keypos-75 text.hold { fill: white; }\n.layer-Lower
+    .keypos-76 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Lower
+    .keypos-76 text.hold { fill: white; }\n.layer-Lower .keypos-77 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Lower .keypos-78 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Autoshift .keypos-10 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-10 text.hold { fill:
+    white; }\n.layer-Autoshift .keypos-11 rect { fill: color-mix(in srgb, #FFFF00
+    70%, gray 30%); }\n.layer-Autoshift .keypos-11 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-12 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-12 text.hold { fill: white; }\n.layer-Autoshift .keypos-13 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-13 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-14 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-14 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-15 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-15 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-16 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-16 text.hold { fill: white; }\n.layer-Autoshift .keypos-17 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-17 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-18 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-18 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-19 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-19 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-20 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-20 text.hold { fill: white; }\n.layer-Autoshift .keypos-21 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-21 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-23 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-23 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-24 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-24 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-25 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-25 text.hold { fill: white; }\n.layer-Autoshift .keypos-26 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-26 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-27 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-27 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-28 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-28 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-29 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-29 text.hold { fill: white; }\n.layer-Autoshift .keypos-30 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-30 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-31 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-31 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-32 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-32 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-33 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-33 text.hold { fill: white; }\n.layer-Autoshift .keypos-35 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-35 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-36 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-36 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-37 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-37 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-38 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-38 text.hold { fill: white; }\n.layer-Autoshift .keypos-39 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-39 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-40 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-40 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-41 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-41 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-42 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-42 text.hold { fill: white; }\n.layer-Autoshift .keypos-43 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-43 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-44 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-44 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-46 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-46 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-47 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-47 text.hold { fill: white; }\n.layer-Autoshift .keypos-48 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-48 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-49 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-49 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-50 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-50 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-51 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-51 text.hold { fill: white; }\n.layer-Autoshift .keypos-52 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-52 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-53 rect { fill: color-mix(in srgb,
+    #00FF00 70%, gray 30%); }\n.layer-Autoshift .keypos-53 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-55 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-Autoshift .keypos-55 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-56 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-56 text.hold { fill: white; }\n.layer-Autoshift .keypos-57 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-57 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-58 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-58 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-59 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Autoshift .keypos-59 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-60 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-60 text.hold { fill: white; }\n.layer-Autoshift .keypos-61 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-61 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-62 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-62 text.hold { fill: white;
+    }\n.layer-Autoshift .keypos-71 rect { fill: color-mix(in srgb, #00FFFF 70%, gray
+    30%); }\n.layer-Autoshift .keypos-71 text.hold { fill: white; }\n.layer-Autoshift
+    .keypos-72 rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Autoshift
+    .keypos-72 text.hold { fill: white; }\n.layer-Autoshift .keypos-75 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-75 text.hold
+    { fill: white; }\n.layer-Autoshift .keypos-76 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-Autoshift .keypos-76 text.hold { fill: white;
+    }\n.layer-LeftPinky .keypos-35 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-LeftPinky .keypos-35 text.hold { fill: white; }\n.layer-LeftPinky
+    .keypos-44 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-LeftPinky
+    .keypos-44 text.hold { fill: white; }\n.layer-LeftRingy .keypos-36 rect { fill:
+    color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-LeftRingy .keypos-36 text.hold
+    { fill: white; }\n.layer-LeftRingy .keypos-43 rect { fill: color-mix(in srgb,
+    #00FFFF 70%, gray 30%); }\n.layer-LeftRingy .keypos-43 text.hold { fill: white;
+    }\n.layer-LeftMiddy .keypos-37 rect { fill: color-mix(in srgb, #00ff68 70%, gray
+    30%); }\n.layer-LeftMiddy .keypos-37 text.hold { fill: white; }\n.layer-LeftMiddy
+    .keypos-42 rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-LeftMiddy
+    .keypos-42 text.hold { fill: white; }\n.layer-LeftIndex .keypos-38 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-LeftIndex .keypos-38 text.hold
+    { fill: white; }\n.layer-LeftIndex .keypos-41 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-LeftIndex .keypos-41 text.hold { fill: white;
+    }\n.layer-RightIndex .keypos-38 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-RightIndex .keypos-38 text.hold { fill: white; }\n.layer-RightIndex
+    .keypos-41 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-RightIndex
+    .keypos-41 text.hold { fill: white; }\n.layer-RightMiddy .keypos-37 rect { fill:
+    color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-RightMiddy .keypos-37 text.hold
+    { fill: white; }\n.layer-RightMiddy .keypos-42 rect { fill: color-mix(in srgb,
+    #00FF00 70%, gray 30%); }\n.layer-RightMiddy .keypos-42 text.hold { fill: white;
+    }\n.layer-RightRingy .keypos-36 rect { fill: color-mix(in srgb, #00FFFF 70%, gray
+    30%); }\n.layer-RightRingy .keypos-36 text.hold { fill: white; }\n.layer-RightRingy
+    .keypos-43 rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-RightRingy
+    .keypos-43 text.hold { fill: white; }\n.layer-RightPinky .keypos-35 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-RightPinky .keypos-35 text.hold
+    { fill: white; }\n.layer-RightPinky .keypos-44 rect { fill: color-mix(in srgb,
+    #FF00FF 70%, gray 30%); }\n.layer-RightPinky .keypos-44 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-11 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Cursor .keypos-11 text.hold { fill: white; }\n.layer-Cursor .keypos-12
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor .keypos-12
+    text.hold { fill: white; }\n.layer-Cursor .keypos-13 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor .keypos-13 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-14 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Cursor .keypos-14 text.hold { fill: white; }\n.layer-Cursor .keypos-23
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor .keypos-23
+    text.hold { fill: white; }\n.layer-Cursor .keypos-24 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor .keypos-24 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-25 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Cursor .keypos-25 text.hold { fill: white; }\n.layer-Cursor .keypos-26
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor .keypos-26
+    text.hold { fill: white; }\n.layer-Cursor .keypos-27 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Cursor .keypos-27 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-29 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Cursor .keypos-29 text.hold { fill: white; }\n.layer-Cursor .keypos-30
+    rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-Cursor .keypos-30
+    text.hold { fill: white; }\n.layer-Cursor .keypos-31 rect { fill: color-mix(in
+    srgb, #FF80BF 70%, gray 30%); }\n.layer-Cursor .keypos-31 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-32 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Cursor .keypos-32 text.hold { fill: white; }\n.layer-Cursor .keypos-34
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor .keypos-35
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor .keypos-36
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor .keypos-37
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor .keypos-38
+    rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor .keypos-39
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Cursor .keypos-39
+    text.hold { fill: white; }\n.layer-Cursor .keypos-40 rect { fill: color-mix(in
+    srgb, #00FF00 70%, gray 30%); }\n.layer-Cursor .keypos-40 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-41 rect { fill: color-mix(in srgb, #00FF00 70%, gray
+    30%); }\n.layer-Cursor .keypos-41 text.hold { fill: white; }\n.layer-Cursor .keypos-42
+    rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Cursor .keypos-42
+    text.hold { fill: white; }\n.layer-Cursor .keypos-43 rect { fill: color-mix(in
+    srgb, #00FF00 70%, gray 30%); }\n.layer-Cursor .keypos-43 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-45 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray
+    30%); }\n\n.layer-Cursor .keypos-46 rect { fill: color-mix(in srgb, #FF00FF 70%,
+    gray 30%); }\n.layer-Cursor .keypos-46 text.hold { fill: white; }\n.layer-Cursor
+    .keypos-47 rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor
+    .keypos-47 text.hold { fill: white; }\n.layer-Cursor .keypos-48 rect { fill: color-mix(in
+    srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor .keypos-48 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-49 rect { fill: color-mix(in srgb, #00FFFF 70%, gray
+    30%); }\n.layer-Cursor .keypos-49 text.hold { fill: white; }\n.layer-Cursor .keypos-50
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-50
+    text.hold { fill: white; }\n.layer-Cursor .keypos-51 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Cursor .keypos-51 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-55 rect { fill: color-mix(in srgb, #00FFFF 70%, gray
+    30%); }\n.layer-Cursor .keypos-55 text.hold { fill: white; }\n.layer-Cursor .keypos-56
+    rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor .keypos-56
+    text.hold { fill: white; }\n.layer-Cursor .keypos-57 rect { fill: color-mix(in
+    srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor .keypos-57 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-59 rect { fill: color-mix(in srgb, #00ff68 70%, gray
+    30%); }\n.layer-Cursor .keypos-59 text.hold { fill: white; }\n.layer-Cursor .keypos-60
+    rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor .keypos-60
+    text.hold { fill: white; }\n.layer-Cursor .keypos-61 rect { fill: color-mix(in
+    srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor .keypos-61 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-62 rect { fill: color-mix(in srgb, #00ff68 70%, gray
+    30%); }\n.layer-Cursor .keypos-62 text.hold { fill: white; }\n.layer-Cursor .keypos-63
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-63
+    text.hold { fill: white; }\n.layer-Cursor .keypos-67 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-67 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-68 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-Cursor .keypos-68 text.hold { fill: white; }\n.layer-Cursor .keypos-70
+    rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor .keypos-70
+    text.hold { fill: white; }\n.layer-Cursor .keypos-72 rect { fill: color-mix(in
+    srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor .keypos-72 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-73 rect { fill: color-mix(in srgb, #00FFFF 70%, gray
+    30%); }\n.layer-Cursor .keypos-73 text.hold { fill: white; }\n.layer-Cursor .keypos-74
+    rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor .keypos-74
+    text.hold { fill: white; }\n.layer-Cursor .keypos-75 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-75 text.hold { fill: white;
+    }\n.layer-Cursor .keypos-76 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-Cursor .keypos-76 text.hold { fill: white; }\n.layer-Cursor .keypos-77
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-77
+    text.hold { fill: white; }\n.layer-Cursor .keypos-78 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor .keypos-78 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-11 rect { fill: color-mix(in srgb, #FF8000 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-11 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-12 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-12 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-13 rect { fill:
+    color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-13 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-14 rect { fill: color-mix(in srgb,
+    #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-14 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-23 rect { fill: color-mix(in srgb, #FF8000 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-23 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-24 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-24 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-25 rect { fill:
+    color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-25 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-26 rect { fill: color-mix(in srgb,
+    #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-26 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-27 rect { fill: color-mix(in srgb, #FFFF00 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-27 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-29 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-29 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-30 rect { fill:
+    color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-30 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-31 rect { fill: color-mix(in srgb,
+    #FF80BF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-31 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-32 rect { fill: color-mix(in srgb, #FF8000 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-32 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-34 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS
+    .keypos-35 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS
+    .keypos-36 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS
+    .keypos-37 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS
+    .keypos-38 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS
+    .keypos-39 rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-39 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-40 rect { fill:
+    color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-40 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-41 rect { fill: color-mix(in srgb,
+    #00FF00 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-41 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-42 rect { fill: color-mix(in srgb, #00FF00 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-42 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-43 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-43 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-45 rect { fill:
+    color-mix(in srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Cursor_macOS .keypos-46
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-46 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-47 rect { fill:
+    color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-47 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-48 rect { fill: color-mix(in srgb,
+    #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-48 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-49 rect { fill: color-mix(in srgb, #00FFFF 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-49 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-50 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-50 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-51 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-51 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-55 rect { fill: color-mix(in srgb,
+    #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-55 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-56 rect { fill: color-mix(in srgb, #00FFFF 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-56 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-57 rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-57 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-59 rect { fill:
+    color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-59 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-60 rect { fill: color-mix(in srgb,
+    #00ff68 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-60 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-61 rect { fill: color-mix(in srgb, #00ff68 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-61 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-62 rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-62 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-63 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-63 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-67 rect { fill: color-mix(in srgb,
+    #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-67 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-68 rect { fill: color-mix(in srgb, #FF00FF 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-68 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-70 rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-70 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-72 rect { fill:
+    color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-72 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-73 rect { fill: color-mix(in srgb,
+    #00FFFF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-73 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-74 rect { fill: color-mix(in srgb, #00FFFF 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-74 text.hold { fill: white; }\n.layer-Cursor_macOS
+    .keypos-75 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS
+    .keypos-75 text.hold { fill: white; }\n.layer-Cursor_macOS .keypos-76 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-76 text.hold
+    { fill: white; }\n.layer-Cursor_macOS .keypos-77 rect { fill: color-mix(in srgb,
+    #FF00FF 70%, gray 30%); }\n.layer-Cursor_macOS .keypos-77 text.hold { fill: white;
+    }\n.layer-Cursor_macOS .keypos-78 rect { fill: color-mix(in srgb, #FF00FF 70%,
+    gray 30%); }\n.layer-Cursor_macOS .keypos-78 text.hold { fill: white; }\n.layer-Symbol
+    .keypos-10 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol
+    .keypos-10 text.hold { fill: white; }\n.layer-Symbol .keypos-11 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Symbol .keypos-11 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-12 rect { fill: color-mix(in srgb, #99F5FF 70%, gray
+    30%); }\n.layer-Symbol .keypos-12 text.hold { fill: white; }\n.layer-Symbol .keypos-13
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Symbol .keypos-13
+    text.hold { fill: white; }\n.layer-Symbol .keypos-14 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-14 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-15 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-15 text.hold { fill: white; }\n.layer-Symbol .keypos-22
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Symbol .keypos-22
+    text.hold { fill: white; }\n.layer-Symbol .keypos-23 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-23 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-24 rect { fill: color-mix(in srgb, #99F5FF 70%, gray
+    30%); }\n.layer-Symbol .keypos-24 text.hold { fill: white; }\n.layer-Symbol .keypos-25
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Symbol .keypos-25
+    text.hold { fill: white; }\n.layer-Symbol .keypos-26 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-26 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-27 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-27 text.hold { fill: white; }\n.layer-Symbol .keypos-28
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-28
+    text.hold { fill: white; }\n.layer-Symbol .keypos-29 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Symbol .keypos-30 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Symbol .keypos-31 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Symbol .keypos-32 rect { fill: color-mix(in
+    srgb, #FFFFFF 70%, gray 30%); }\n\n.layer-Symbol .keypos-34 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-34 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-35 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-35 text.hold { fill: white; }\n.layer-Symbol .keypos-36
+    rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-Symbol .keypos-36
+    text.hold { fill: white; }\n.layer-Symbol .keypos-37 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-37 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-38 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-38 text.hold { fill: white; }\n.layer-Symbol .keypos-39
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-39
+    text.hold { fill: white; }\n.layer-Symbol .keypos-40 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-40 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-41 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Symbol .keypos-41 text.hold { fill: white; }\n.layer-Symbol .keypos-42
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-42
+    text.hold { fill: white; }\n.layer-Symbol .keypos-43 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-43 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-44 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Symbol .keypos-44 text.hold { fill: white; }\n.layer-Symbol .keypos-46
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-46
+    text.hold { fill: white; }\n.layer-Symbol .keypos-47 rect { fill: color-mix(in
+    srgb, #80FF00 70%, gray 30%); }\n.layer-Symbol .keypos-47 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-48 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-48 text.hold { fill: white; }\n.layer-Symbol .keypos-49
+    rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-Symbol .keypos-49
+    text.hold { fill: white; }\n.layer-Symbol .keypos-50 rect { fill: color-mix(in
+    srgb, #80FF00 70%, gray 30%); }\n.layer-Symbol .keypos-50 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-51 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-51 text.hold { fill: white; }\n.layer-Symbol .keypos-52
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-52
+    text.hold { fill: white; }\n.layer-Symbol .keypos-53 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-53 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-54 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-54 text.hold { fill: white; }\n.layer-Symbol .keypos-58
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-58
+    text.hold { fill: white; }\n.layer-Symbol .keypos-59 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-59 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-60 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-Symbol .keypos-60 text.hold { fill: white; }\n.layer-Symbol .keypos-61
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-61
+    text.hold { fill: white; }\n.layer-Symbol .keypos-62 rect { fill: color-mix(in
+    srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-62 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-64 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-64 text.hold { fill: white; }\n.layer-Symbol .keypos-65
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-65
+    text.hold { fill: white; }\n.layer-Symbol .keypos-66 rect { fill: color-mix(in
+    srgb, #FF00FF 70%, gray 30%); }\n.layer-Symbol .keypos-66 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-67 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-Symbol .keypos-67 text.hold { fill: white; }\n.layer-Symbol .keypos-68
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Symbol .keypos-68
+    text.hold { fill: white; }\n.layer-Symbol .keypos-69 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-69 text.hold { fill: white;
+    }\n.layer-Symbol .keypos-70 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Symbol .keypos-70 text.hold { fill: white; }\n.layer-Symbol .keypos-71
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Symbol .keypos-71
+    text.hold { fill: white; }\n.layer-Symbol .keypos-73 rect { fill: color-mix(in
+    srgb, #00ff68 70%, gray 30%); }\n.layer-Symbol .keypos-73 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-24 rect { fill: color-mix(in srgb, #6b1fce 70%, gray 30%);
+    }\n.layer-Mouse .keypos-24 text.hold { fill: white; }\n.layer-Mouse .keypos-25
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse .keypos-25
+    text.hold { fill: white; }\n.layer-Mouse .keypos-26 rect { fill: color-mix(in
+    srgb, #6b1fce 70%, gray 30%); }\n.layer-Mouse .keypos-26 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-29 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray 30%);
+    }\n\n.layer-Mouse .keypos-30 rect { fill: color-mix(in srgb, #FFFFFF 70%, gray
+    30%); }\n\n.layer-Mouse .keypos-31 rect { fill: color-mix(in srgb, #FFFFFF 70%,
+    gray 30%); }\n\n.layer-Mouse .keypos-32 rect { fill: color-mix(in srgb, #FFFFFF
+    70%, gray 30%); }\n\n.layer-Mouse .keypos-35 rect { fill: color-mix(in srgb, #008080
+    70%, gray 30%); }\n.layer-Mouse .keypos-35 text.hold { fill: white; }\n.layer-Mouse
+    .keypos-36 rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse
+    .keypos-36 text.hold { fill: white; }\n.layer-Mouse .keypos-37 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse .keypos-37 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-38 rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%);
+    }\n.layer-Mouse .keypos-38 text.hold { fill: white; }\n.layer-Mouse .keypos-41
+    rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-Mouse .keypos-41
+    text.hold { fill: white; }\n.layer-Mouse .keypos-42 rect { fill: color-mix(in
+    srgb, #80FF00 70%, gray 30%); }\n.layer-Mouse .keypos-42 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-43 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%);
+    }\n.layer-Mouse .keypos-43 text.hold { fill: white; }\n.layer-Mouse .keypos-44
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Mouse .keypos-44
+    text.hold { fill: white; }\n.layer-Mouse .keypos-45 rect { fill: color-mix(in
+    srgb, #FF80BF 70%, gray 30%); }\n.layer-Mouse .keypos-45 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-47 rect { fill: color-mix(in srgb, #008080 70%, gray 30%);
+    }\n.layer-Mouse .keypos-47 text.hold { fill: white; }\n.layer-Mouse .keypos-48
+    rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-Mouse .keypos-48
+    text.hold { fill: white; }\n.layer-Mouse .keypos-49 rect { fill: color-mix(in
+    srgb, #80FF00 70%, gray 30%); }\n.layer-Mouse .keypos-49 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-50 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%);
+    }\n.layer-Mouse .keypos-50 text.hold { fill: white; }\n.layer-Mouse .keypos-52
+    rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-Mouse .keypos-52
+    text.hold { fill: white; }\n.layer-Mouse .keypos-54 rect { fill: color-mix(in
+    srgb, #FF80BF 70%, gray 30%); }\n.layer-Mouse .keypos-54 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-59 rect { fill: color-mix(in srgb, #6b1fce 70%, gray 30%);
+    }\n.layer-Mouse .keypos-59 text.hold { fill: white; }\n.layer-Mouse .keypos-60
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse .keypos-60
+    text.hold { fill: white; }\n.layer-Mouse .keypos-61 rect { fill: color-mix(in
+    srgb, #6b1fce 70%, gray 30%); }\n.layer-Mouse .keypos-61 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-62 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%);
+    }\n.layer-Mouse .keypos-62 text.hold { fill: white; }\n.layer-Mouse .keypos-63
+    rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-Mouse .keypos-63
+    text.hold { fill: white; }\n.layer-Mouse .keypos-69 rect { fill: color-mix(in
+    srgb, #FFFF00 70%, gray 30%); }\n.layer-Mouse .keypos-69 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-70 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%);
+    }\n.layer-Mouse .keypos-70 text.hold { fill: white; }\n.layer-Mouse .keypos-71
+    rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-Mouse .keypos-71
+    text.hold { fill: white; }\n.layer-Mouse .keypos-73 rect { fill: color-mix(in
+    srgb, #00ff68 70%, gray 30%); }\n.layer-Mouse .keypos-73 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-75 rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%);
+    }\n.layer-Mouse .keypos-75 text.hold { fill: white; }\n.layer-Mouse .keypos-76
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse .keypos-76
+    text.hold { fill: white; }\n.layer-Mouse .keypos-77 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Mouse .keypos-77 text.hold { fill: white;
+    }\n.layer-Mouse .keypos-78 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%);
+    }\n.layer-Mouse .keypos-78 text.hold { fill: white; }\n.layer-MouseFast .keypos-17
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-MouseFast .keypos-17
+    text.hold { fill: white; }\n.layer-MouseFast .keypos-18 rect { fill: color-mix(in
+    srgb, #00FF00 70%, gray 30%); }\n.layer-MouseFast .keypos-18 text.hold { fill:
+    white; }\n.layer-MouseFast .keypos-19 rect { fill: color-mix(in srgb, #00FFFF
+    70%, gray 30%); }\n.layer-MouseFast .keypos-19 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-20 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-20 text.hold { fill: white; }\n.layer-MouseFast .keypos-24 rect { fill:
+    color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-24 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-25 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-25 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-26 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseFast .keypos-26 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-29 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-29 text.hold { fill: white; }\n.layer-MouseFast .keypos-30 rect { fill:
+    color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-30 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-31 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-31 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-32 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseFast .keypos-32 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-35 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-35 text.hold { fill: white; }\n.layer-MouseFast .keypos-36 rect { fill:
+    color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-36 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-37 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-37 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-38 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseFast .keypos-38 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-41 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-41 text.hold { fill: white; }\n.layer-MouseFast .keypos-42 rect { fill:
+    color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseFast .keypos-42 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-43 rect { fill: color-mix(in srgb,
+    #FF7C4D 70%, gray 30%); }\n.layer-MouseFast .keypos-43 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-47 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseFast .keypos-47 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-48 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-48 text.hold { fill: white; }\n.layer-MouseFast .keypos-49 rect { fill:
+    color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseFast .keypos-49 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-50 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-50 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-52 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-MouseFast .keypos-52 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-54 rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-54 text.hold { fill: white; }\n.layer-MouseFast .keypos-59 rect { fill:
+    color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-59 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-60 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseFast .keypos-60 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-61 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseFast .keypos-61 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-62 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-62 text.hold { fill: white; }\n.layer-MouseFast .keypos-69 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-MouseFast .keypos-69 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-70 rect { fill: color-mix(in srgb,
+    #FF8000 70%, gray 30%); }\n.layer-MouseFast .keypos-70 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-71 rect { fill: color-mix(in srgb, #FF80BF 70%, gray
+    30%); }\n.layer-MouseFast .keypos-71 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-73 rect { fill: color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-73 text.hold { fill: white; }\n.layer-MouseFast .keypos-75 rect { fill:
+    color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-MouseFast .keypos-75 text.hold
+    { fill: white; }\n.layer-MouseFast .keypos-76 rect { fill: color-mix(in srgb,
+    #FF8000 70%, gray 30%); }\n.layer-MouseFast .keypos-76 text.hold { fill: white;
+    }\n.layer-MouseFast .keypos-77 rect { fill: color-mix(in srgb, #FF00FF 70%, gray
+    30%); }\n.layer-MouseFast .keypos-77 text.hold { fill: white; }\n.layer-MouseFast
+    .keypos-78 rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseFast
+    .keypos-78 text.hold { fill: white; }\n.layer-MouseFast .keypos-79 rect { fill:
+    color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseFast .keypos-79 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-17 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-17 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-18 rect { fill: color-mix(in srgb, #00FF00 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-18 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-19 rect { fill: color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-19 text.hold { fill: white; }\n.layer-MouseWarp .keypos-20 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseWarp .keypos-20 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-24 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-24 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-25 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-25 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-26 rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-26 text.hold { fill: white; }\n.layer-MouseWarp .keypos-29 rect { fill:
+    color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-29 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-30 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-30 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-31 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-31 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-32 rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-32 text.hold { fill: white; }\n.layer-MouseWarp .keypos-35 rect { fill:
+    color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-35 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-36 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-36 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-37 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-37 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-38 rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-38 text.hold { fill: white; }\n.layer-MouseWarp .keypos-41 rect { fill:
+    color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseWarp .keypos-41 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-42 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-42 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-43 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-43 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-47 rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-47 text.hold { fill: white; }\n.layer-MouseWarp .keypos-48 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseWarp .keypos-48 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-49 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-49 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-50 rect { fill: color-mix(in srgb, #FFD900 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-50 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-52 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-52 text.hold { fill: white; }\n.layer-MouseWarp .keypos-54 rect { fill:
+    color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseWarp .keypos-54 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-59 rect { fill: color-mix(in srgb,
+    #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-59 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-60 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-60 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-61 rect { fill: color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-61 text.hold { fill: white; }\n.layer-MouseWarp .keypos-62 rect { fill:
+    color-mix(in srgb, #80FF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-62 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-69 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-69 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-70 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-70 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-71 rect { fill: color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-71 text.hold { fill: white; }\n.layer-MouseWarp .keypos-73 rect { fill:
+    color-mix(in srgb, #00ff68 70%, gray 30%); }\n.layer-MouseWarp .keypos-73 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-75 rect { fill: color-mix(in srgb,
+    #FFFF00 70%, gray 30%); }\n.layer-MouseWarp .keypos-75 text.hold { fill: white;
+    }\n.layer-MouseWarp .keypos-76 rect { fill: color-mix(in srgb, #FF8000 70%, gray
+    30%); }\n.layer-MouseWarp .keypos-76 text.hold { fill: white; }\n.layer-MouseWarp
+    .keypos-77 rect { fill: color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseWarp
+    .keypos-77 text.hold { fill: white; }\n.layer-MouseWarp .keypos-78 rect { fill:
+    color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseWarp .keypos-78 text.hold
+    { fill: white; }\n.layer-MouseWarp .keypos-79 rect { fill: color-mix(in srgb,
+    #FF80BF 70%, gray 30%); }\n.layer-MouseWarp .keypos-79 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-17 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-17 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-18 rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-18 text.hold { fill: white; }\n.layer-MouseSlow .keypos-19 rect { fill:
+    color-mix(in srgb, #00FFFF 70%, gray 30%); }\n.layer-MouseSlow .keypos-19 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-20 rect { fill: color-mix(in srgb,
+    #FF00FF 70%, gray 30%); }\n.layer-MouseSlow .keypos-20 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-24 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-24 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-25 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-25 text.hold { fill: white; }\n.layer-MouseSlow .keypos-26 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-26 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-29 rect { fill: color-mix(in srgb,
+    #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-29 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-30 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-30 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-31 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-31 text.hold { fill: white; }\n.layer-MouseSlow .keypos-32 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-32 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-35 rect { fill: color-mix(in srgb,
+    #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-35 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-36 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-36 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-37 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-37 text.hold { fill: white; }\n.layer-MouseSlow .keypos-38 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-38 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-41 rect { fill: color-mix(in srgb,
+    #FFD900 70%, gray 30%); }\n.layer-MouseSlow .keypos-41 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-42 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-42 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-43 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-43 text.hold { fill: white; }\n.layer-MouseSlow .keypos-47 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-47 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-48 rect { fill: color-mix(in srgb,
+    #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-48 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-49 rect { fill: color-mix(in srgb, #80FF00 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-49 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-50 rect { fill: color-mix(in srgb, #FFD900 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-50 text.hold { fill: white; }\n.layer-MouseSlow .keypos-52 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseSlow .keypos-52 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-54 rect { fill: color-mix(in srgb,
+    #FF80BF 70%, gray 30%); }\n.layer-MouseSlow .keypos-54 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-59 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-59 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-60 rect { fill: color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-60 text.hold { fill: white; }\n.layer-MouseSlow .keypos-61 rect { fill:
+    color-mix(in srgb, #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-61 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-62 rect { fill: color-mix(in srgb,
+    #FF7C4D 70%, gray 30%); }\n.layer-MouseSlow .keypos-62 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-69 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-69 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-70 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-70 text.hold { fill: white; }\n.layer-MouseSlow .keypos-71 rect { fill:
+    color-mix(in srgb, #FF80BF 70%, gray 30%); }\n.layer-MouseSlow .keypos-71 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-73 rect { fill: color-mix(in srgb,
+    #00ff68 70%, gray 30%); }\n.layer-MouseSlow .keypos-73 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-75 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-75 text.hold { fill: white; }\n.layer-MouseSlow
+    .keypos-76 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-MouseSlow
+    .keypos-76 text.hold { fill: white; }\n.layer-MouseSlow .keypos-77 rect { fill:
+    color-mix(in srgb, #FF00FF 70%, gray 30%); }\n.layer-MouseSlow .keypos-77 text.hold
+    { fill: white; }\n.layer-MouseSlow .keypos-78 rect { fill: color-mix(in srgb,
+    #FF80BF 70%, gray 30%); }\n.layer-MouseSlow .keypos-78 text.hold { fill: white;
+    }\n.layer-MouseSlow .keypos-79 rect { fill: color-mix(in srgb, #FF80BF 70%, gray
+    30%); }\n.layer-MouseSlow .keypos-79 text.hold { fill: white; }\n.layer-Gaming
+    .keypos-0 rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Gaming
+    .keypos-0 text.hold { fill: white; }\n.layer-Gaming .keypos-37 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-37 text.hold { fill: white;
+    }\n.layer-Gaming .keypos-47 rect { fill: color-mix(in srgb, #FFFF00 70%, gray
+    30%); }\n.layer-Gaming .keypos-47 text.hold { fill: white; }\n.layer-Gaming .keypos-48
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-48
+    text.hold { fill: white; }\n.layer-Gaming .keypos-49 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-49 text.hold { fill: white;
+    }\n.layer-Gaming .keypos-50 rect { fill: color-mix(in srgb, #99F5FF 70%, gray
+    30%); }\n.layer-Gaming .keypos-50 text.hold { fill: white; }\n.layer-Gaming .keypos-52
+    rect { fill: color-mix(in srgb, #FFFF00 70%, gray 30%); }\n.layer-Gaming .keypos-52
+    text.hold { fill: white; }\n.layer-Gaming .keypos-53 rect { fill: color-mix(in
+    srgb, #00FFFF 70%, gray 30%); }\n.layer-Gaming .keypos-53 text.hold { fill: white;
+    }\n.layer-Gaming .keypos-54 rect { fill: color-mix(in srgb, #FF0000 70%, gray
+    30%); }\n.layer-Gaming .keypos-54 text.hold { fill: white; }\n.layer-Gaming .keypos-55
+    rect { fill: color-mix(in srgb, #FF8000 70%, gray 30%); }\n.layer-Gaming .keypos-55
+    text.hold { fill: white; }\n.layer-Gaming .keypos-56 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-56 text.hold { fill: white;
+    }\n.layer-Gaming .keypos-65 rect { fill: color-mix(in srgb, #00FF00 70%, gray
+    30%); }\n.layer-Gaming .keypos-65 text.hold { fill: white; }\n.layer-Gaming .keypos-70
+    rect { fill: color-mix(in srgb, #00FF00 70%, gray 30%); }\n.layer-Gaming .keypos-70
+    text.hold { fill: white; }\n.layer-Gaming .keypos-71 rect { fill: color-mix(in
+    srgb, #FF0000 70%, gray 30%); }\n.layer-Gaming .keypos-71 text.hold { fill: white;
+    }\n.layer-Gaming .keypos-72 rect { fill: color-mix(in srgb, #99F5FF 70%, gray
+    30%); }\n.layer-Gaming .keypos-72 text.hold { fill: white; }\n.layer-Gaming .keypos-73
+    rect { fill: color-mix(in srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-73
+    text.hold { fill: white; }\n.layer-Gaming .keypos-74 rect { fill: color-mix(in
+    srgb, #99F5FF 70%, gray 30%); }\n.layer-Gaming .keypos-74 text.hold { fill: white;
+    }"
   glyphs:
     moergo: |
       <svg xml:space="preserve" viewBox="0 0 512 172">
