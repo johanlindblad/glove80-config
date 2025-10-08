@@ -2,6 +2,7 @@
   writeShellApplication,
   keymap-drawer,
   yq-go,
+  ruby,
 }:
 # Draw SVG images of the keymap
 writeShellApplication {
@@ -9,6 +10,7 @@ writeShellApplication {
   runtimeInputs = [
     yq-go
     keymap-drawer
+    ruby
   ];
   text = ''
     set +e
@@ -19,6 +21,10 @@ writeShellApplication {
     cmd() {
       keymap --config "$keymap_dir"/keymap_drawer.yaml "$@"
     }
+
+    # Generate keymap_drawer.yaml from keymap.json
+    echo "- Generating keymap_drawer.yaml"
+    ruby ./scripts/generate.rb
 
     for file in "$keymap_dir"/*.keymap
     do
